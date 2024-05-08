@@ -1,0 +1,6 @@
+-- New script in localhost 3.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : D:\workspace\multi\04_db
+-- Date: 2024. 5. 7.
+-- Time: 오후 7:41:28
