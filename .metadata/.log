@@ -3757,3 +3757,436 @@ WHERE SUBSTR(TO_CHAR(HIRE_DATE,'YYYYMMDD'),0,4) = 2001 OR 2006, Error Message = 
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-05-09 14:47:03.020 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -eclipse.keyring C:\Users\JAEMIN\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2024-05-09 14:47:20.654
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 14:51:09.190
+!MESSAGE SQL Error [2289] [42000]: ORA-02289: sequence does not exist
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 14:51:09.190
+!MESSAGE Error : 2289, Position : 232, SQL = -- 캐쉬사용 안함
+
+-- NEXTVAL, CURRVAL
+-- CURRVAL : 현재값을 반환 -- 현재값을 생성한후에 바로 조회하면 조회가 안되고 에러발생 
+-- NEXTVAL : 현재 시퀀스 값의 다음값을 반환
+SELECT SEQ_EMPID.CURRVAL FROM DUAL, Original SQL = -- 캐쉬사용 안함
+
+-- NEXTVAL, CURRVAL
+-- CURRVAL : 현재값을 반환 -- 현재값을 생성한후에 바로 조회하면 조회가 안되고 에러발생 
+-- NEXTVAL : 현재 시퀀스 값의 다음값을 반환
+SELECT SEQ_EMPID.CURRVAL FROM DUAL, Error Message = ORA-02289: sequence does not exist
+
+!STACK 0
+Error : 2289, Position : 232, SQL = -- 캐쉬사용 안함
+
+-- NEXTVAL, CURRVAL
+-- CURRVAL : 현재값을 반환 -- 현재값을 생성한후에 바로 조회하면 조회가 안되고 에러발생 
+-- NEXTVAL : 현재 시퀀스 값의 다음값을 반환
+SELECT SEQ_EMPID.CURRVAL FROM DUAL, Original SQL = -- 캐쉬사용 안함
+
+-- NEXTVAL, CURRVAL
+-- CURRVAL : 현재값을 반환 -- 현재값을 생성한후에 바로 조회하면 조회가 안되고 에러발생 
+-- NEXTVAL : 현재 시퀀스 값의 다음값을 반환
+SELECT SEQ_EMPID.CURRVAL FROM DUAL, Error Message = ORA-02289: sequence does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2024-05-09 14:51:09.390
+!MESSAGE Error positioning on query error
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2024-05-09 14:51:09.390
+!MESSAGE assertion failed: 
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:104)
+	at org.eclipse.jface.text.Position.<init>(Position.java:66)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.visualizeQueryErrors(SQLEditorBase.java:996)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.processQueryResult(SQLEditor.java:4816)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.lambda$4(SQLEditor.java:4790)
+	at org.jkiss.dbeaver.ui.UIUtils$9.runInUIThread(UIUtils.java:1845)
+	at org.jkiss.dbeaver.ui.AbstractUIJob.runInUIThread(AbstractUIJob.java:41)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 14:51:11.277
+!MESSAGE SQL Error [2289] [42000]: ORA-02289: sequence does not exist
+
+
+Error position: line: 504 pos: 18
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 14:51:11.277
+!MESSAGE SQL Error [2289] [42000]: ORA-02289: sequence does not exist
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-05-09 14:51:11.277
+!MESSAGE Error : 2289, Position : 18, SQL = -- 에러
+SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Original SQL = -- 에러
+SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Error Message = ORA-02289: sequence does not exist
+
+!STACK 0
+Error : 2289, Position : 18, SQL = -- 에러
+SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Original SQL = -- 에러
+SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Error Message = ORA-02289: sequence does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 15:01:51.174
+!MESSAGE SQL Error [8004] [72000]: ORA-08004: sequence SEQ_EMPID.NEXTVAL exceeds MAXVALUE and cannot be instantiated
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 15:01:51.174
+!MESSAGE Error : 8004, Position : 0, SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Original SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Error Message = ORA-08004: sequence SEQ_EMPID.NEXTVAL exceeds MAXVALUE and cannot be instantiated
+
+!STACK 0
+Error : 8004, Position : 0, SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Original SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Error Message = ORA-08004: sequence SEQ_EMPID.NEXTVAL exceeds MAXVALUE and cannot be instantiated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 15:01:57.329
+!MESSAGE SQL Error [8004] [72000]: ORA-08004: sequence SEQ_EMPID.NEXTVAL exceeds MAXVALUE and cannot be instantiated
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 15:01:57.329
+!MESSAGE Error : 8004, Position : 0, SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Original SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Error Message = ORA-08004: sequence SEQ_EMPID.NEXTVAL exceeds MAXVALUE and cannot be instantiated
+
+!STACK 0
+Error : 8004, Position : 0, SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Original SQL = SELECT SEQ_EMPID.NEXTVAL FROM DUAL, Error Message = ORA-08004: sequence SEQ_EMPID.NEXTVAL exceeds MAXVALUE and cannot be instantiated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:05.831
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:05.831
+!MESSAGE Error : 933, Position : 76, SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Original SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Error Message = ORA-00933: SQL command not properly ended
+
+!STACK 0
+Error : 933, Position : 76, SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Original SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Error Message = ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:21.760
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:21.760
+!MESSAGE Error : 933, Position : 76, SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Original SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Error Message = ORA-00933: SQL command not properly ended
+
+!STACK 0
+Error : 933, Position : 76, SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Original SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Error Message = ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:33.430
+!MESSAGE SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+
+Error position: line: 521 pos: 16
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:33.430
+!MESSAGE SQL Error [955] [42000]: ORA-00955: name is already used by an existing object
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:33.430
+!MESSAGE Error : 955, Position : 16, SQL = CREATE SEQUENCE BBS_ID_SEQ   -- 시퀀스 객체 생성
+START WITH 1            -- 시작번호는 1부터
+INCREMENT BY 1          -- 1씩 증가 
+MAXVALUE 100            -- 최대100까지 / 이거안써도됌
+NOCYCLE                 -- 100이후 에러발생
+NOCACHE, Original SQL = CREATE SEQUENCE BBS_ID_SEQ   -- 시퀀스 객체 생성
+START WITH 1            -- 시작번호는 1부터
+INCREMENT BY 1          -- 1씩 증가 
+MAXVALUE 100            -- 최대100까지 / 이거안써도됌
+NOCYCLE                 -- 100이후 에러발생
+NOCACHE, Error Message = ORA-00955: name is already used by an existing object
+
+!STACK 0
+Error : 955, Position : 16, SQL = CREATE SEQUENCE BBS_ID_SEQ   -- 시퀀스 객체 생성
+START WITH 1            -- 시작번호는 1부터
+INCREMENT BY 1          -- 1씩 증가 
+MAXVALUE 100            -- 최대100까지 / 이거안써도됌
+NOCYCLE                 -- 100이후 에러발생
+NOCACHE, Original SQL = CREATE SEQUENCE BBS_ID_SEQ   -- 시퀀스 객체 생성
+START WITH 1            -- 시작번호는 1부터
+INCREMENT BY 1          -- 1씩 증가 
+MAXVALUE 100            -- 최대100까지 / 이거안써도됌
+NOCYCLE                 -- 100이후 에러발생
+NOCACHE, Error Message = ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:35.182
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-05-09 15:14:35.182
+!MESSAGE Error : 933, Position : 76, SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Original SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Error Message = ORA-00933: SQL command not properly ended
+
+!STACK 0
+Error : 933, Position : 76, SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Original SQL = INSERT INTO BBS7 VALUES(BBS_ID_SEQ.NEXTVAL,'HAPPY','아 행복하다',1)
+
+DROP SEQUENCE BBS_ID_SEQ, Error Message = ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
