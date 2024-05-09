@@ -1,13 +1,4 @@
--- CONNECTION: url=jdbc:mysql://localhost:3306/
-
-
-
-
-
-
-
-
-
+-- CONNECTION: url=jdbc:oracle:thin:@//localhost:1521/XE
 -- New script in localhost.
 -- Connection Type: dev 
 -- Url: jdbc:oracle:thin:@//localhost:1521/XE
