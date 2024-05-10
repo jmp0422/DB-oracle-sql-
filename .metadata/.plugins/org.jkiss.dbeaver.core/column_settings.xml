@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
+	<item id="NodeList/MySQLTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="100"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Data Type" visible="true" order="2" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="100"/>
+		<column name="Auto Increment" visible="true" order="4" width="100"/>
+		<column name="Key" visible="true" order="5" width="100"/>
+		<column name="디폴트" visible="true" order="6" width="100"/>
+		<column name="Extra" visible="true" order="7" width="100"/>
+		<column name="Expression" visible="true" order="8" width="100"/>
+		<column name="Comment" visible="true" order="9" width="100"/>
+	</item>
 	<item id="NodeList/OracleTable">
 		<column name="Name" visible="true" order="0" width="132"/>
 		<column name="Partitioned" visible="true" order="1" width="100"/>
@@ -21,19 +33,31 @@
 	<item id="SchemaSelector">
 		<column name="Name" visible="true" order="0" width="130"/>
 	</item>
+	<item id="Suggestion/NodeList/MySQLTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="118"/>
+		<column name="#" visible="true" order="1" width="59"/>
+		<column name="Data Type" visible="true" order="2" width="105"/>
+		<column name="Not Null" visible="false" order="3" width="100"/>
+		<column name="Auto Increment" visible="false" order="4" width="100"/>
+		<column name="Key" visible="false" order="5" width="100"/>
+		<column name="디폴트" visible="false" order="6" width="100"/>
+		<column name="Extra" visible="false" order="7" width="100"/>
+		<column name="Expression" visible="false" order="8" width="100"/>
+		<column name="Comment" visible="true" order="3" width="100"/>
+	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="73"/>
-		<column name="#" visible="true" order="1" width="29"/>
-		<column name="Type" visible="true" order="2" width="96"/>
+		<column name="컬럼명" visible="true" order="0" width="84"/>
+		<column name="#" visible="true" order="1" width="26"/>
+		<column name="Type" visible="true" order="2" width="99"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
-		<column name="Not Null" visible="true" order="3" width="61"/>
-		<column name="디폴트" visible="true" order="4" width="52"/>
-		<column name="Comment" visible="true" order="5" width="70"/>
+		<column name="Not Null" visible="true" order="3" width="58"/>
+		<column name="디폴트" visible="true" order="4" width="49"/>
+		<column name="Comment" visible="true" order="5" width="67"/>
 	</item>
 	<item id="scriptSelectorViewer">
-		<column name="Script" visible="true" order="0" width="198"/>
-		<column name="Time" visible="true" order="1" width="171"/>
-		<column name="Info" visible="true" order="2" width="56"/>
-		<column name="Folder" visible="true" order="3" width="68"/>
+		<column name="Script" visible="true" order="0" width="167"/>
+		<column name="Time" visible="true" order="1" width="188"/>
+		<column name="Info" visible="true" order="2" width="73"/>
+		<column name="Folder" visible="true" order="3" width="85"/>
 	</item>
 </items>
