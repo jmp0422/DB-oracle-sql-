@@ -12,6 +12,11 @@
 		<column name="Expression" visible="true" order="8" width="100"/>
 		<column name="Comment" visible="true" order="9" width="100"/>
 	</item>
+	<item id="NodeList/OraclePrivRole">
+		<column name="Role" visible="true" order="0" width="100"/>
+		<column name="Admin Option" visible="true" order="1" width="100"/>
+		<column name="Default" visible="true" order="2" width="100"/>
+	</item>
 	<item id="NodeList/OracleTable">
 		<column name="Name" visible="true" order="0" width="132"/>
 		<column name="Partitioned" visible="true" order="1" width="100"/>
