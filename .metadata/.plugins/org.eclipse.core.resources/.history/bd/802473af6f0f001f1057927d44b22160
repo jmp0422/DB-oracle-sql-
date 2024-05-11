@@ -5,7 +5,7 @@
 -- Date: 2024. 5. 10.
 -- Time: 오전 11:01:30
 
-USE scottt;
+USE scott;
 
 DROP TABLE MEMBER;
 CREATE TABLE member(
@@ -20,12 +20,3 @@ CREATE TABLE member(
 INSERT INTO MEMBER VALUES(NULL,1,1,'리사','010',NOW());
 COMMIT;
 SELECT * FROM MEMBER;
-
-SHOW grants;
-
-CREATE USER scottt@'%' IDENTIFIED BY 'tiger'; -- 외부에서 접속가능하다 
-
--- 모든 DATABASE 및 모든 TABLE에 대한 접근 허용
--- GRANT ALL PRIVILEGES ON *.* TO '사용자아이디'@'접속허용IP';
-GRANT ALL PRIVILEGES ON scott.* TO 'scottt'@'%';
-CREATE DATABASE scottt;
