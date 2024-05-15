@@ -1,21 +1,21 @@
-2024-05-11 16:29:51.704 - DBeaver 24.0.3.202404211624 is starting
-2024-05-11 16:29:51.705 - OS: Windows 10 10.0 (amd64)
-2024-05-11 16:29:51.705 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-05-11 16:29:51.705 - Install path: 'H:\workspace\oracle\DBeaver'
-2024-05-11 16:29:51.705 - Instance path: 'file:/H:/workspace/multi/04_db/'
-2024-05-11 16:29:51.707 - Memory available 64Mb/1024Mb
-2024-05-11 16:29:51.714 - Create display
-2024-05-11 16:29:51.878 - Initialize desktop platform...
-2024-05-11 16:29:52.056 - BounceCastle bundle found. Use JCE provider BC
+2024-05-14 16:53:52.339 - DBeaver 24.0.3.202404211624 is starting
+2024-05-14 16:53:52.340 - OS: Windows 10 10.0 (amd64)
+2024-05-14 16:53:52.340 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-14 16:53:52.340 - Install path: 'H:\workspace\oracle\DBeaver'
+2024-05-14 16:53:52.340 - Instance path: 'file:/H:/workspace/multi/04_db/'
+2024-05-14 16:53:52.342 - Memory available 64Mb/1024Mb
+2024-05-14 16:53:52.365 - Create display
+2024-05-14 16:53:52.616 - Initialize desktop platform...
+2024-05-14 16:53:52.949 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
-2024-05-11 16:29:52.423 - Initialize base platform...
-2024-05-11 16:29:52.456 - Platform initialized (576ms)
+2024-05-14 16:53:53.416 - Initialize base platform...
+2024-05-14 16:53:53.469 - Platform initialized (852ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
-2024-05-11 16:29:52.636 - Starting instance server at http://localhost:3630
-2024-05-11 16:29:52.660 - Run workbench
+2024-05-14 16:53:53.693 - Starting instance server at http://localhost:10184
+2024-05-14 16:53:53.759 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
@@ -28,18 +28,18 @@
 > Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
-2024-05-11 16:30:00.808 - Configure workbench window
+2024-05-14 16:54:03.083 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
-2024-05-11 16:30:01.074 - Total database drivers: 112 (112)
+2024-05-14 16:54:03.300 - Total database drivers: 112 (112)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
-2024-05-11 16:30:01.251 - Create actions
-2024-05-11 16:30:01.283 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-05-11 16:30:01.284 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-05-11 16:30:01.284 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-05-11 16:30:01.284 - Create workbench actions
+2024-05-14 16:54:03.511 - Create actions
+2024-05-14 16:54:03.523 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-14 16:54:03.523 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-14 16:54:03.523 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-14 16:54:03.524 - Create workbench actions
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
-2024-05-11 16:30:02.519 - Initialize workbench window
-2024-05-11 16:30:02.526 - Finish initialization
+2024-05-14 16:54:04.860 - Initialize workbench window
+2024-05-14 16:54:04.870 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
@@ -62,151 +62,32 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
 > Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-05-14 16:54:09.731 - Connect with 'localhost 4' (oracle_thin-18f3cfe8351-3c17426f1dacd56f)
+2024-05-14 16:54:09.770 - Execution context opened (localhost 4; Main; 0)
+2024-05-14 16:54:09.918 - Connect with 'localhost' (oracle_thin-18f3c7e490f-66e9f76381d1fe84)
+2024-05-14 16:54:09.919 - Execution context opened (localhost; Main; 1)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
-2024-05-11 16:30:06.109 - Connect with 'localhost' (oracle_thin-18f3c7e490f-66e9f76381d1fe84)
-2024-05-11 16:30:06.164 - Execution context opened (localhost; Main; 0)
-2024-05-11 16:30:07.131 - Execution context opened (localhost; Metadata; 1)
-2024-05-11 16:30:07.228 - Connected (oracle_thin-18f3c7e490f-66e9f76381d1fe84, Oracle JDBC driver [23.2.0.0.0])
-2024-05-11 16:30:07.246 - Execution context opened (localhost; SQLEditor <Script-13.sql>; 2)
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
 > Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
-2024-05-11 16:30:13.490 - Execution context opened (localhost; SQLEditor <Script-14.sql>; 3)
-2024-05-11 16:30:28.674 - Error while analyzing query text: CREATE TABLE 
-java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:875)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:972)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:953)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:468)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:678)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:501)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:81)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2024-05-11 16:30:34.324 - SQL Error [906] [42000]: ORA-00906: missing left parenthesis
-
-
-Error position: line: 11 pos: 18
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [906] [42000]: ORA-00906: missing left parenthesis
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00906: missing left parenthesis
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-Caused by: Error : 906, Position : 18, SQL = CREATE TABLE EMP11, Original SQL = CREATE TABLE EMP11, Error Message = ORA-00906: missing left parenthesis
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
-	... 26 more
-2024-05-11 16:30:54.591 - SQL Error [2263] [42000]: ORA-02263: need to specify the datatype for this column
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2263] [42000]: ORA-02263: need to specify the datatype for this column
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-02263: need to specify the datatype for this column
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-Caused by: Error : 2263, Position : 22, SQL = CREATE TABLE EMP11(
-	ENAME11
-), Original SQL = CREATE TABLE EMP11(
-	ENAME11
-), Error Message = ORA-02263: need to specify the datatype for this column
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
-	... 26 more
+2024-05-14 16:54:10.240 - Connect with 'localhost 3' (oracle_thin-18f3cd72e0c-5d72d8081e0b6b19)
+2024-05-14 16:54:10.241 - Execution context opened (localhost 3; Main; 2)
+2024-05-14 16:54:11.054 - Execution context opened (localhost 3; Metadata; 4)
+2024-05-14 16:54:11.054 - Execution context opened (localhost; Metadata; 5)
+2024-05-14 16:54:11.054 - Execution context opened (localhost 4; Metadata; 3)
+2024-05-14 16:54:11.220 - Connected (oracle_thin-18f3cd72e0c-5d72d8081e0b6b19, Oracle JDBC driver [23.2.0.0.0])
+2024-05-14 16:54:11.220 - Connected (oracle_thin-18f3cfe8351-3c17426f1dacd56f, Oracle JDBC driver [23.2.0.0.0])
+2024-05-14 16:54:11.249 - Execution context opened (localhost 4; SQLEditor <day07_oracle_hr.sql>; 6)
+2024-05-14 16:54:11.282 - Execution context opened (localhost 3; SQLEditor <day07_oracle_scott.sql>; 7)
+2024-05-14 16:54:11.293 - Connected (oracle_thin-18f3c7e490f-66e9f76381d1fe84, Oracle JDBC driver [23.2.0.0.0])
+2024-05-14 16:54:12.961 - Execution context opened (localhost; SQLEditor <Script-16.sql>; 8)
+2024-05-14 16:54:14.089 - Execution context opened (localhost 3; SQLEditor <Script-8.sql>; 9)
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
-> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
-2024-05-11 16:31:38.731 - Connect with 'localhost 2' (mysql8-18f3c4755fa-48d44911c1ae78cb)
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
-2024-05-11 16:31:38.756 - Execution context opened (localhost 2; Main; 4)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
-2024-05-11 16:31:39.003 - Execution context opened (localhost 2; Metadata; 5)
-2024-05-11 16:31:39.067 - Connected (mysql8-18f3c4755fa-48d44911c1ae78cb, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-05-11 16:31:39.103 - Execution context opened (localhost 2; SQLEditor <day05_mysql.sql>; 6)
-2024-05-11 16:33:58.026 - org.jkiss.dbeaver.DBException: TABLE 'DMP11' not found in schema 'SYSTEM'
-	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:344)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:176)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:105)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:65)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1005)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:328)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:120)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:104)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:391)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2024-05-11 16:33:58.034 - org.jkiss.dbeaver.DBException: TABLE 'DMP11' not found in schema 'SYSTEM'
-	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:344)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:176)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:122)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:65)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1005)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:328)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:120)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:104)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:391)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2024-05-11 16:33:59.245 - SQL Error [904] [42000]: ORA-00904: "ENMAE": invalid identifier
+2024-05-14 16:55:24.242 - SQL Error [907] [42000]: ORA-00907: missing right parenthesis
 
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [904] [42000]: ORA-00904: "ENMAE": invalid identifier
+
+Error position: line: 44 pos: 121
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [907] [42000]: ORA-00907: missing right parenthesis
 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
@@ -221,7 +102,7 @@ org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [904] [42000]: ORA-00904: 
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "ENMAE": invalid identifier
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
@@ -230,203 +111,35 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "ENMAE": invalid identif
 	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
 	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
 	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
-	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
-	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
-	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
-	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
 	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
 	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
 	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
-Caused by: Error : 904, Position : 51, SQL = SELECT ENAME11 , DNAME11 FROM EMP11,DMP11 ORDER BY ENMAE, Original SQL = SELECT ENAME11 , DNAME11 FROM EMP11,DMP11 ORDER BY ENMAE, Error Message = ORA-00904: "ENMAE": invalid identifier
+Caused by: Error : 907, Position : 121, SQL = CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50)
+	USER_TIME int
+), Original SQL = CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50)
+	USER_TIME int
+), Error Message = ORA-00907: missing right parenthesis
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
-	... 28 more
-2024-05-11 16:34:08.615 - org.jkiss.dbeaver.DBException: TABLE 'DMP11' not found in schema 'SYSTEM'
-	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:344)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:176)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:105)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:65)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1005)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:328)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:120)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:104)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:391)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2024-05-11 16:34:08.622 - org.jkiss.dbeaver.DBException: TABLE 'DMP11' not found in schema 'SYSTEM'
-	at org.jkiss.dbeaver.ext.oracle.model.OracleStructureAssistant$2.resolveObject(OracleStructureAssistant.java:344)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:176)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:122)
-	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:65)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1005)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:328)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:120)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:104)
-	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:391)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2024-05-11 16:58:43.973 - 	Invalidate context 'Main' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (BEFORE_INVALIDATE)
-2024-05-11 16:58:43.985 - Execution context closed (localhost, 0)
-2024-05-11 16:58:43.985 - 	Invalidate context 'Metadata' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (BEFORE_INVALIDATE)
-2024-05-11 16:58:43.996 - Execution context closed (localhost, 1)
-2024-05-11 16:58:43.996 - 	Invalidate context 'SQLEditor <Script-13.sql>' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (BEFORE_INVALIDATE)
-2024-05-11 16:58:44.008 - Execution context closed (localhost, 2)
-2024-05-11 16:58:44.008 - 	Invalidate context 'SQLEditor <Script-14.sql>' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (BEFORE_INVALIDATE)
-2024-05-11 16:58:44.019 - Execution context closed (localhost, 3)
-2024-05-11 16:58:44.019 - 	Invalidate context 'Main' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (INVALIDATE)
-2024-05-11 16:58:44.050 - 	Invalidate context 'Metadata' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (INVALIDATE)
-2024-05-11 16:58:44.086 - 	Invalidate context 'SQLEditor <Script-13.sql>' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (INVALIDATE)
-2024-05-11 16:58:44.117 - 	Invalidate context 'SQLEditor <Script-14.sql>' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (INVALIDATE)
-2024-05-11 16:58:44.144 - 	Invalidate context 'Main' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (AFTER_INVALIDATE)
-2024-05-11 16:58:44.145 - 	Invalidate context 'Metadata' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (AFTER_INVALIDATE)
-2024-05-11 16:58:44.145 - 	Invalidate context 'SQLEditor <Script-13.sql>' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (AFTER_INVALIDATE)
-2024-05-11 16:58:44.145 - 	Invalidate context 'SQLEditor <Script-14.sql>' for oracle_thin-18f3c7e490f-66e9f76381d1fe84 (AFTER_INVALIDATE)
-2024-05-11 16:58:44.160 - Connections reopened: 4 (of 4)
-> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.113.202404211624]
-2024-05-11 16:58:47.266 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 16:58:47.309 - Unrecognized Oracle client version at H:/workspace/oracle/DBeaver/jre
-2024-05-11 16:58:54.165 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 16:59:07.252 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 17:01:08.198 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 17:01:30.180 - Execution context opened (localhost; SQLEditor <day04_oracle_scott.sql>; 7)
-2024-05-11 17:01:41.486 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 17:05:45.336 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 17:07:48.488 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 17:12:07.758 - Execution context opened (localhost 2; SQLEditor <Script-15.sql>; 8)
-2024-05-11 17:13:12.348 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tiger' at line 8
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tiger' at line 8
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tiger' at line 8
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-05-11 17:16:19.737 - No active connection. Action is in disabled state.
-2024-05-11 17:16:30.728 - Execution context opened (localhost; SQLEditor <day01_oracle_scott.sql>; 9)
-2024-05-11 17:16:35.137 - Execution context closed (localhost 2, 8)
-2024-05-11 17:16:37.256 - Execution context closed (localhost, 2)
-2024-05-11 17:16:38.117 - Execution context closed (localhost, 3)
-2024-05-11 17:17:21.878 - No active connection
-2024-05-11 17:17:29.077 - SQL Error [1396] [HY000]: Operation CREATE USER failed for 'scott'@'%'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1396] [HY000]: Operation CREATE USER failed for 'scott'@'%'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: Operation CREATE USER failed for 'scott'@'%'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-05-11 17:18:34.290 - SQL Error [1049] [42000]: Unknown database 'scottt'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1049] [42000]: Unknown database 'scottt'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'scottt'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
-2024-05-11 17:19:02.557 - SQL Error [1049] [42000]: Unknown database 'scottt'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1049] [42000]: Unknown database 'scottt'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'scottt'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-05-11 17:19:06.316 - SQL Error [1049] [42000]: Unknown database 'scottt'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1049] [42000]: Unknown database 'scottt'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'scottt'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-05-11 17:19:36.238 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GRANT ALL PRIVILEGES ON scott.* TO 'scottt'@'%'' at line 5
+	... 26 more
+2024-05-14 16:55:36.030 - SQL Error [907] [42000]: ORA-00907: missing right parenthesis
 
-Error position: line: 4
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GRANT ALL PRIVILEGES ON scott.* TO 'scottt'@'%'' at line 5
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [907] [42000]: ORA-00907: missing right parenthesis
+
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
@@ -440,64 +153,255 @@ org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have a
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GRANT ALL PRIVILEGES ON scott.* TO 'scottt'@'%'' at line 5
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
-2024-05-11 17:19:44.705 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:44.705 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:44.705 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:44.705 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:44.705 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:44.705 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:44.966 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1396] [HY000]: Operation CREATE USER failed for 'scottt'@'%'
+Caused by: Error : 907, Position : 121, SQL = CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50)
+	TIME int
+), Original SQL = CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50)
+	TIME int
+), Error Message = ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-05-14 17:19:29.913 - SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
 	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: Operation CREATE USER failed for 'scottt'@'%'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-2024-05-11 17:19:46.174 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1396] [HY000]: Operation CREATE USER failed for 'scottt'@'%'
+	... 11 more
+Caused by: Error : 4098, Position : 12, SQL = INSERT INTO FOOD
+VALUES (NULL, '2라면', 4000), Original SQL = INSERT INTO FOOD
+VALUES (NULL, '2라면', 4000), Error Message = ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-05-14 17:19:33.746 - SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+
+Error position: line: 69 pos: 12
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
 	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:239)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: Operation CREATE USER failed for 'scottt'@'%'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-2024-05-11 17:19:49.215 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:49.215 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:49.215 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:49.215 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:49.215 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:19:49.216 - Table 'scottt.member' not found in metadata catalog
-2024-05-11 17:20:43.932 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-05-11 17:23:03.317 - Execution context closed (localhost, 7)
-2024-05-11 17:23:03.350 - Execution context closed (localhost, 9)
-2024-05-11 17:23:03.453 - Execution context closed (localhost 2, 6)
-2024-05-11 17:23:03.869 - DBeaver is stopping
-2024-05-11 17:23:03.872 - Stop instance server
-2024-05-11 17:23:04.883 - DBeaver shutdown completed
+	... 11 more
+Caused by: Error : 4098, Position : 12, SQL = INSERT INTO FOOD
+VALUES (NULL, '2라면', 4000), Original SQL = INSERT INTO FOOD
+VALUES (NULL, '2라면', 4000), Error Message = ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-05-14 17:20:00.175 - SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+Caused by: Error : 4098, Position : 12, SQL = INSERT INTO FOOD
+VALUES (1, '2라면', 4000), Original SQL = INSERT INTO FOOD
+VALUES (1, '2라면', 4000), Error Message = ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-05-14 17:20:17.165 - SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+Caused by: Error : 4098, Position : 12, SQL = INSERT INTO FOOD
+VALUES (NULL, '2라면', 4000), Original SQL = INSERT INTO FOOD
+VALUES (NULL, '2라면', 4000), Error Message = ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-05-14 17:21:13.344 - SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [4098] [42000]: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:527)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+Caused by: Error : 4098, Position : 12, SQL = INSERT INTO FOOD(ITEMCODE,ITEMNAME,ITEMPRICE)
+VALUES (NULL, '2라면', 4000), Original SQL = INSERT INTO FOOD(ITEMCODE,ITEMNAME,ITEMPRICE)
+VALUES (NULL, '2라면', 4000), Error Message = ORA-04098: trigger 'STUDENT.FOOD_BEFORE_INSERT' is invalid and failed re-validation
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 25 more
+2024-05-14 21:56:11.962 - Execution context closed (localhost, 1)
+2024-05-14 21:56:11.977 - Execution context closed (localhost, 5)
+2024-05-14 21:56:11.988 - Execution context closed (localhost, 8)
+2024-05-14 21:56:11.988 - Disconnected (oracle_thin-18f3c7e490f-66e9f76381d1fe84)
+2024-05-14 21:56:11.997 - Execution context closed (localhost 4, 0)
+2024-05-14 21:56:11.998 - Execution context closed (localhost 3, 2)
+2024-05-14 21:56:12.011 - Execution context closed (localhost 3, 4)
+2024-05-14 21:56:12.011 - Execution context closed (localhost 4, 3)
+2024-05-14 21:56:12.022 - Execution context closed (localhost 4, 6)
+2024-05-14 21:56:12.022 - Execution context closed (localhost 3, 7)
+2024-05-14 21:56:12.022 - Disconnected (oracle_thin-18f3cfe8351-3c17426f1dacd56f)
+2024-05-14 21:56:12.033 - Execution context closed (localhost 3, 9)
+2024-05-14 21:56:12.033 - Disconnected (oracle_thin-18f3cd72e0c-5d72d8081e0b6b19)
+2024-05-15 00:35:23.437 - DBeaver is stopping
+2024-05-15 00:35:23.438 - Stop instance server
+2024-05-15 00:35:24.450 - DBeaver shutdown completed

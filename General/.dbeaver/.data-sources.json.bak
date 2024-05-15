@@ -28,7 +28,6 @@
 			"driver": "oracle_thin",
 			"name": "localhost",
 			"save-password": true,
-			"virtual-model-id": "oracle_thin-18f3c7d9a18-676d6d840d7bee6",
 			"configuration": {
 				"host": "localhost",
 				"port": "1521",
@@ -156,7 +155,7 @@
 			"name": "Development",
 			"color": "255,255,255",
 			"description": "Regular development database",
-			"auto-commit": false,
+			"auto-commit": true,
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,
