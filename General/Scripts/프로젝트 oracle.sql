@@ -1,0 +1,106 @@
+-- New script in localhost.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : H:\workspace\multi\04_db
+-- Date: 2024. 5. 12.
+-- Time: 오후 4:49:11
+
+SELECT * FROM PCMEMBER;
+DROP TABLE PCMEMBER;
+--피시방회원 테이블
+CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50),
+	USER_TIME INT
+);
+
+--피시방기존회원
+INSERT INTO PCMEMBER VALUES('admin','admin','관리자' , '010-41',null);
+INSERT INTO PCMEMBER VALUES('user11','user11','홍길동' , '010-55', 15);
+INSERT INTO PCMEMBER VALUES('11','11','남주혁' , '010-301', 5);
+INSERT INTO PCMEMBER VALUES('22','22','남주혁' , '010-301', 6);
+INSERT INTO PCMEMBER VALUES('apple','apple','사과싫어' , '010-91', 49);
+
+
+
+----------------------------------------------------------------------------------------
+--음식테이블
+CREATE TABLE FOOD (
+    ITEMCODE INT PRIMARY KEY,
+    ITEMNAME VARCHAR(50),
+    ITEMPRICE INT
+);
+
+
+--음식테이블 시퀀스추가
+CREATE OR REPLACE TRIGGER food_before_insert
+BEFORE INSERT ON FOOD
+FOR EACH ROW
+BEGIN
+    SELECT itemcode_seq.NEXTVAL INTO :new.ITEMCODE FROM dual;
+END;
+CREATE SEQUENCE itemcode_seq START WITH 1 INCREMENT BY 1;
+
+
+
+
+--음식메뉴
+INSERT INTO FOOD
+VALUES (NULL, '라면', 4000);
+INSERT INTO FOOD
+VALUES (NULL, '커피', 3500);
+INSERT INTO FOOD
+VALUES (NULL, '조각피자', 2500);
+INSERT INTO FOOD
+VALUES (NULL, '짜게치', 4500);
+INSERT INTO FOOD
+VALUES (NULL, '닭강정', 3900);
+INSERT INTO FOOD
+VALUES (NULL, '젤리', 1500);
+INSERT INTO FOOD
+VALUES (NULL, '이온음료', 1800);
+INSERT INTO FOOD
+VALUES (NULL, '볶음밥', 5500);
+
+
+
+
+--주문테이블
+CREATE TABLE TBL_ORDER (
+    ORDERNO INT PRIMARY KEY,
+    ORDERTIME TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    USERID VARCHAR(50),
+    ITEMNAME VARCHAR(50),
+    CNT INT,
+    TOTALPRICE INT,
+    SERVING CHAR(1) DEFAULT 'n'
+);
+
+--주문된내역
+INSERT INTO TBL_ORDER (ORDERNO, USERID, ITEMNAME, CNT, TOTALPRICE)
+VALUES (1, 'user123', 'Pizza', 2, 30000);
+
+INSERT INTO TBL_ORDER (ORDERNO, USERID, ITEMNAME, CNT, TOTALPRICE)
+VALUES (2, 'user456', 'Burger', 1, 15000);
+
+INSERT INTO TBL_ORDER (ORDERNO, USERID, ITEMNAME, CNT, TOTALPRICE)
+VALUES (null, 'user789', 'Spaghetti', 3, 45000);
+
+--시퀀스추가/번호달기
+CREATE SEQUENCE order_sequence1
+  START WITH 1
+  INCREMENT BY 1;
+  CREATE OR REPLACE TRIGGER order_sequence_trigger
+BEFORE INSERT ON TBL_ORDER
+FOR EACH ROW
+BEGIN
+  :new.ORDERNO := order_sequence1.NEXTVAL;
+END;
+
+--커밋
+COMMIT;
+
+
+

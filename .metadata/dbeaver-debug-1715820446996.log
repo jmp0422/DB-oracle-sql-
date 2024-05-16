@@ -1,0 +1,29 @@
+2024-05-16 01:11:32.513 - DBeaver 24.0.3.202404211624 is starting
+2024-05-16 01:11:32.513 - OS: Windows 10 10.0 (amd64)
+2024-05-16 01:11:32.514 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-16 01:11:32.514 - Install path: 'H:\workspace\oracle\DBeaver'
+2024-05-16 01:11:32.514 - Instance path: 'file:/H:/workspace/multi/04_db/'
+2024-05-16 01:11:32.516 - Memory available 64Mb/1024Mb
+2024-05-16 01:11:32.523 - Create display
+2024-05-16 01:11:32.706 - Initialize desktop platform...
+2024-05-16 01:11:32.855 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
+2024-05-16 01:11:33.206 - Initialize base platform...
+2024-05-16 01:11:33.242 - Platform initialized (535ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
+2024-05-16 01:11:33.519 - Starting instance server at http://localhost:2294
+2024-05-16 01:11:33.539 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
