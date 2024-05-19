@@ -1,21 +1,21 @@
-2024-05-15 13:14:00.324 - DBeaver 24.0.3.202404211624 is starting
-2024-05-15 13:14:00.325 - OS: Windows 10 10.0 (amd64)
-2024-05-15 13:14:00.326 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-05-15 13:14:00.326 - Install path: 'H:\workspace\oracle\DBeaver'
-2024-05-15 13:14:00.326 - Instance path: 'file:/H:/workspace/multi/04_db/'
-2024-05-15 13:14:00.328 - Memory available 64Mb/1024Mb
-2024-05-15 13:14:00.335 - Create display
-2024-05-15 13:14:00.496 - Initialize desktop platform...
-2024-05-15 13:14:00.645 - BounceCastle bundle found. Use JCE provider BC
+2024-05-16 11:53:10.052 - DBeaver 24.0.3.202404211624 is starting
+2024-05-16 11:53:10.053 - OS: Windows 10 10.0 (amd64)
+2024-05-16 11:53:10.053 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-16 11:53:10.054 - Install path: 'H:\workspace\oracle\DBeaver'
+2024-05-16 11:53:10.054 - Instance path: 'file:/H:/workspace/multi/04_db/'
+2024-05-16 11:53:10.055 - Memory available 64Mb/1024Mb
+2024-05-16 11:53:10.062 - Create display
+2024-05-16 11:53:10.153 - Initialize desktop platform...
+2024-05-16 11:53:10.265 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
-2024-05-15 13:14:00.951 - Initialize base platform...
-2024-05-15 13:14:00.982 - Platform initialized (486ms)
+2024-05-16 11:53:10.443 - Initialize base platform...
+2024-05-16 11:53:10.462 - Platform initialized (309ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
-2024-05-15 13:14:01.133 - Starting instance server at http://localhost:13962
-2024-05-15 13:14:01.162 - Run workbench
+2024-05-16 11:53:10.601 - Starting instance server at http://localhost:6863
+2024-05-16 11:53:10.605 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
@@ -28,18 +28,18 @@
 > Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
-2024-05-15 13:14:09.105 - Configure workbench window
+2024-05-16 11:53:11.840 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
-2024-05-15 13:14:09.312 - Total database drivers: 112 (112)
+2024-05-16 11:53:11.961 - Total database drivers: 112 (112)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
-2024-05-15 13:14:09.466 - Create actions
-2024-05-15 13:14:09.487 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-05-15 13:14:09.487 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-05-15 13:14:09.488 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-05-15 13:14:09.488 - Create workbench actions
+2024-05-16 11:53:12.043 - Create actions
+2024-05-16 11:53:12.048 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-16 11:53:12.049 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-16 11:53:12.049 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-16 11:53:12.049 - Create workbench actions
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
-2024-05-15 13:14:10.624 - Initialize workbench window
-2024-05-15 13:14:10.630 - Finish initialization
+2024-05-16 11:53:12.519 - Initialize workbench window
+2024-05-16 11:53:12.525 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
@@ -62,22 +62,55 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
 > Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-05-16 11:53:14.838 - Connect with 'localhost' (oracle_thin-18f3c7e490f-66e9f76381d1fe84)
+2024-05-16 11:53:14.861 - Execution context opened (localhost; Main; 0)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
-2024-05-15 13:14:13.715 - Connect with 'localhost' (oracle_thin-18f3c7e490f-66e9f76381d1fe84)
-2024-05-15 13:14:13.750 - Execution context opened (localhost; Main; 0)
-2024-05-15 13:14:14.609 - Execution context opened (localhost; Metadata; 1)
-2024-05-15 13:14:14.697 - Connected (oracle_thin-18f3c7e490f-66e9f76381d1fe84, Oracle JDBC driver [23.2.0.0.0])
-2024-05-15 13:14:14.719 - Execution context opened (localhost; SQLEditor <Script-16.sql>; 2)
-2024-05-15 13:14:15.366 - Open [https://dbeaver.io/product/version.xml]
+2024-05-16 11:53:15.408 - Execution context opened (localhost; Metadata; 1)
+2024-05-16 11:53:15.485 - Connected (oracle_thin-18f3c7e490f-66e9f76381d1fe84, Oracle JDBC driver [23.2.0.0.0])
+2024-05-16 11:53:15.491 - Execution context opened (localhost; SQLEditor <프로젝트 oracle.sql>; 2)
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
 > Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.116.202404211624]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
-2024-05-15 14:33:32.593 - SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+2024-05-16 12:38:10.691 - Error positioning on query error
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:104)
+	at org.eclipse.jface.text.Position.<init>(Position.java:66)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.visualizeQueryErrors(SQLEditorBase.java:996)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.processQueryResult(SQLEditor.java:4816)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.lambda$4(SQLEditor.java:4790)
+	at org.jkiss.dbeaver.ui.UIUtils$9.runInUIThread(UIUtils.java:1845)
+	at org.jkiss.dbeaver.ui.AbstractUIJob.runInUIThread(AbstractUIJob.java:41)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-16 12:38:10.819 - SQL Error [904] [42000]: ORA-00904: : invalid identifier
 
-
-Error position: line: 110 pos: 74
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [904] [42000]: ORA-00904: : invalid identifier
 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
@@ -92,7 +125,7 @@ org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [933] [42000]: ORA-00933: 
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: : invalid identifier
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
@@ -110,19 +143,29 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
-Caused by: Error : 933, Position : 74, SQL = INSERT INTO TBL_ORDER VALUES (null, sysdate, '22', '22', 3, 3, null)
-
-
-SELECT * FROM TBL_ORDER WHERE SERVING = 'n', Original SQL = INSERT INTO TBL_ORDER VALUES (null, sysdate, '22', '22', 3, 3, null)
-
-
-SELECT * FROM TBL_ORDER WHERE SERVING = 'n', Error Message = ORA-00933: SQL command not properly ended
+Caused by: Error : 904, Position : 168, SQL = --피시방회원 테이블
+CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50),
+	--USER_TIME INT
+), Original SQL = --피시방회원 테이블
+CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50),
+	--USER_TIME INT
+), Error Message = ORA-00904: : invalid identifier
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
 	... 26 more
-2024-05-15 15:24:12.039 - SQL Error [936] [42000]: ORA-00936: missing expression
+2024-05-16 12:38:18.583 - SQL Error [942] [42000]: ORA-00942: table or view does not exist
 
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [936] [42000]: ORA-00936: missing expression
+
+Error position: line: 8 pos: 207
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: table or view does not exist
 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
@@ -137,7 +180,7 @@ org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [936] [42000]: ORA-00936: 
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00936: missing expression
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
@@ -157,13 +200,27 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00936: missing expression
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
-Caused by: Error : 936, Position : 30, SQL = SELECT * FROM TBL_ORDER WHERE = 22, Original SQL = SELECT * FROM TBL_ORDER WHERE = 22, Error Message = ORA-00936: missing expression
+Caused by: Error : 942, Position : 207, SQL = -- New script in localhost.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : H:\workspace\multi\04_db
+-- Date: 2024. 5. 12.
+-- Time: 오후 4:49:11
+
+SELECT * FROM PCMEMBER, Original SQL = -- New script in localhost.
+-- Connection Type: dev 
+-- Url: jdbc:oracle:thin:@//localhost:1521/XE
+-- workspace : H:\workspace\multi\04_db
+-- Date: 2024. 5. 12.
+-- Time: 오후 4:49:11
+
+SELECT * FROM PCMEMBER, Error Message = ORA-00942: table or view does not exist
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
 	... 28 more
-2024-05-15 15:24:16.692 - SQL Error [936] [42000]: ORA-00936: missing expression
+2024-05-16 12:38:20.382 - SQL Error [904] [42000]: ORA-00904: : invalid identifier
 
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [936] [42000]: ORA-00936: missing expression
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [904] [42000]: ORA-00904: : invalid identifier
 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
@@ -178,134 +235,7 @@ org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [936] [42000]: ORA-00936: 
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00936: missing expression
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
-	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
-	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
-	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
-	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-Caused by: Error : 936, Position : 30, SQL = SELECT * FROM TBL_ORDER WHERE = '22', Original SQL = SELECT * FROM TBL_ORDER WHERE = '22', Error Message = ORA-00936: missing expression
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
-	... 28 more
-2024-05-15 15:24:32.709 - SQL Error [1722] [42000]: ORA-01722: invalid number
-
-
-Error position: line: 113 pos: 30
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1722] [42000]: ORA-01722: invalid number
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-01722: invalid number
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
-	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
-	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
-	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
-	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-Caused by: Error : 1722, Position : 30, SQL = SELECT * FROM TBL_ORDER WHERE USERID = 22, Original SQL = SELECT * FROM TBL_ORDER WHERE USERID = 22, Error Message = ORA-01722: invalid number
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
-	... 28 more
-2024-05-15 15:47:01.087 - SQL Error [936] [42000]: ORA-00936: missing expression
-
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [936] [42000]: ORA-00936: missing expression
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00936: missing expression
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
-	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:1050)
-	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1318)
-	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1197)
-	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1721)
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1518)
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-Caused by: Error : 936, Position : 6, SQL = SELECT, Original SQL = SELECT, Error Message = ORA-00936: missing expression
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
-	... 28 more
-2024-05-15 17:07:00.144 - SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
-
-
-Error position: line: 52 pos: 66
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
-
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: : invalid identifier
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
@@ -323,17 +253,65 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 12 more
-Caused by: Error : 933, Position : 66, SQL = UPDATE PCMEMBER SET USER_TIME = USER_TIME + 1 WHERE USER_ID = 34
-SELECT * FROM PCMEMBER, Original SQL = UPDATE PCMEMBER SET USER_TIME = USER_TIME + 1 WHERE USER_ID = 34
-SELECT * FROM PCMEMBER, Error Message = ORA-00933: SQL command not properly ended
+Caused by: Error : 904, Position : 168, SQL = --피시방회원 테이블
+CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50),
+	--USER_TIME INT
+), Original SQL = --피시방회원 테이블
+CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50),
+	--USER_TIME INT
+), Error Message = ORA-00904: : invalid identifier
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
 	... 26 more
-2024-05-15 17:07:01.155 - SQL Error [1722] [42000]: ORA-01722: invalid number
+2024-05-16 12:38:20.529 - Error positioning on query error
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:104)
+	at org.eclipse.jface.text.Position.<init>(Position.java:66)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.visualizeQueryErrors(SQLEditorBase.java:996)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.processQueryResult(SQLEditor.java:4816)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.lambda$4(SQLEditor.java:4790)
+	at org.jkiss.dbeaver.ui.UIUtils$9.runInUIThread(UIUtils.java:1845)
+	at org.jkiss.dbeaver.ui.AbstractUIJob.runInUIThread(AbstractUIJob.java:41)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-05-16 13:00:15.447 - SQL Error [942] [42000]: ORA-00942: table or view does not exist
 
 
-Error position: line: 51 pos: 52
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1722] [42000]: ORA-01722: invalid number
+Error position: line: 20 pos: 37
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: table or view does not exist
 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
@@ -347,7 +325,7 @@ org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1722] [42000]: ORA-01722:
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: ORA-01722: invalid number
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
@@ -365,11 +343,68 @@ Caused by: java.sql.SQLSyntaxErrorException: ORA-01722: invalid number
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 11 more
-Caused by: Error : 1722, Position : 52, SQL = UPDATE PCMEMBER SET USER_TIME = USER_TIME + 1 WHERE USER_ID = 34, Original SQL = UPDATE PCMEMBER SET USER_TIME = USER_TIME + 1 WHERE USER_ID = 34, Error Message = ORA-01722: invalid number
+Caused by: Error : 942, Position : 37, SQL = --피시방기존회원
+INSERT INTO PCMEMBER VALUES('admin','admin','관리자' , '010-41',null), Original SQL = --피시방기존회원
+INSERT INTO PCMEMBER VALUES('admin','admin','관리자' , '010-41',null), Error Message = ORA-00942: table or view does not exist
 
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
 	... 25 more
-2024-05-15 18:26:53.187 - Execution context closed (localhost, 2)
-2024-05-15 18:26:53.686 - DBeaver is stopping
-2024-05-15 18:26:53.688 - Stop instance server
-2024-05-15 18:26:54.698 - DBeaver shutdown completed
+2024-05-16 13:00:20.046 - SQL Error [907] [42000]: ORA-00907: missing right parenthesis
+
+
+Error position: line: 17 pos: 150
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [907] [42000]: ORA-00907: missing right parenthesis
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1335)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:533)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:176)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1305)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1877)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1520)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2557)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2506)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:334)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: Error : 907, Position : 150, SQL = --피시방회원 테이블
+CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50)
+	USER_TIME INT
+), Original SQL = --피시방회원 테이블
+CREATE TABLE PCMEMBER(
+	USER_ID VARCHAR(50) ,
+	USER_PW VARCHAR(50) ,
+	USER_NAME VARCHAR(50),
+	USER_TEL VARCHAR(50)
+	USER_TIME INT
+), Error Message = ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 26 more
+2024-05-16 13:37:21.803 - Execution context closed (localhost, 2)
+2024-05-16 13:37:22.169 - DBeaver is stopping
+2024-05-16 13:37:22.176 - Stop instance server
+2024-05-16 13:37:23.182 - DBeaver shutdown completed
