@@ -207,7 +207,7 @@ img varchar(100) null
      FOREIGN KEY (ORIID) REFERENCES BOARD(NO),
      FOREIGN KEY (WRITER) REFERENCES MEMBER(ID)
 );  
-SELECT * FROM reply;
+
 CREATE TABLE mymap (
     location VARCHAR(100),
     lat VARCHAR (100),
@@ -219,17 +219,3 @@ insert into mymap values
  
 insert into mymap values 
  ('tower', 37.512,127.1027);
- 
-COMMIT;
-SELECT * from weather;
-CREATE TABLE weather (
-    ID int auto_increment primary key,
-    lat varchar(100),
-    lon varchar(100),
-    weather varchar(100),
-    wind varchar(100),
-    feels varchar(100),
-    cloud varchar(100)
-     
-     
-);  

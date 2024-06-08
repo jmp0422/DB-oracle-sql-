@@ -169,6 +169,23 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"mysql8-18ff02d12d3-5a033cda5933fe90": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost 9",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "XE",
+				"url": "jdbc:mysql://localhost:3306/XE",
+				"configurationType": "MANUAL",
+				"home": "mysql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
