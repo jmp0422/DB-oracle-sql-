@@ -233,4 +233,3 @@ CREATE TABLE weather (
      
      
 );  
-COMMIT;
