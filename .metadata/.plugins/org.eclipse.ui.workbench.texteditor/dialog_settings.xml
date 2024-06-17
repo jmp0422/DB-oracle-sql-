@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="board"/>
+		<item key="selection" value="user01"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="pass01"/>
+			<item value="user01"/>
+			<item value="MEMBER_NO"/>
+			<item value="pass"/>
+			<item value="admin"/>
+			<item value="code1"/>
+			<item value="1"/>
+			<item value="PK_MENU_CODE"/>
 			<item value="board"/>
 			<item value="delete"/>
 			<item value="INT"/>
@@ -15,16 +23,13 @@
 			<item value="DELETE"/>
 			<item value="DELET"/>
 			<item value="UPDATE"/>
-			<item value="NULL"/>
-			<item value="SUB"/>
-			<item value="사나"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1099"/>
-		<item key="DIALOG_Y_ORIGIN" value="473"/>
+		<item key="DIALOG_X_ORIGIN" value="-316"/>
+		<item key="DIALOG_Y_ORIGIN" value="169"/>
 		<item key="DIALOG_WIDTH" value="324"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

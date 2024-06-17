@@ -234,3 +234,4 @@ CREATE TABLE weather (
      
 );  
 COMMIT;
+SELECT * from member;

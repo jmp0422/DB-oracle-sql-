@@ -166,4 +166,71 @@ insert into book values
 
 COMMIT;
 
+create table movie
+(
+movie_id int auto_increment primary key,
+title varchar(100) not null,
+img varchar(100) null,
+genre varchar(100) not null,
+runningTime varchar(100) null,
+link varchar(300) not null
+);
 
+SELECT * FROM  movie ;
+select * FROM board;
+select * FROM bbs2;
+select * FROM sign;
+select * FROM member;
+select * FROM reply;
+DROP TABLE sign;
+
+SELECT *
+FROM sign
+WHERE name = "12" AND birth = "12";
+
+insert INTO sign values
+(null, '박재민1', '9804221', null);
+
+create table sign
+(
+sign_id int auto_increment primary key,
+name varchar(100) not null,
+birth varchar(100) not null,
+img varchar(100) null
+);
+
+ CREATE TABLE REPLY (
+    ID int auto_increment primary key,
+    ORIID int,
+    CONTENT VARCHAR(500),
+    WRITER VARCHAR (10) NOT NULL,
+     FOREIGN KEY (ORIID) REFERENCES BOARD(NO),
+     FOREIGN KEY (WRITER) REFERENCES MEMBER(ID)
+);  
+SELECT * FROM reply;
+CREATE TABLE mymap (
+    location VARCHAR(100),
+    lat VARCHAR (100),
+    lon VARCHAR (100)
+);   
+
+insert into mymap values 
+ ('coex', 37.512,127.0592);
+ 
+insert into mymap values 
+ ('tower', 37.512,127.1027);
+ 
+COMMIT;
+SELECT * from weather;
+CREATE TABLE weather (
+    ID int auto_increment primary key,
+    lat varchar(100),
+    lon varchar(100),
+    weather varchar(100),
+    wind varchar(100),
+    feels varchar(100),
+    cloud varchar(100)
+     
+     
+);  
+COMMIT;
