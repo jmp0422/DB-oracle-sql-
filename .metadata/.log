@@ -13564,3 +13564,550 @@ org.jkiss.dbeaver.DBException: TABLE 'TESTMEMBER00' not found in schema 'SCOTT'
 	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-18 19:25:21.278 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -eclipse.keyring C:\Users\JAEMIN\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2024-06-18 19:25:37.971
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2024-06-19 15:52:26.251 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -eclipse.keyring C:\Users\JAEMIN\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2024-06-19 15:52:43.884
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 16:31:06.485
+!MESSAGE Access denied for user 'semi'@'localhost' (using password: YES)
+!STACK 0
+java.sql.SQLException: Access denied for user 'semi'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:121)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:116)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 16:31:24.369
+!MESSAGE Access denied for user 'semi'@'localhost' (using password: YES)
+!STACK 0
+java.sql.SQLException: Access denied for user 'semi'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:121)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:116)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:36:50.283
+!MESSAGE Access denied for user 'scott'@'localhost' (using password: YES)
+!STACK 0
+java.sql.SQLException: Access denied for user 'scott'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:121)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:116)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:38:04.735
+!MESSAGE SQL Error [1396] [HY000]: Operation ALTER USER failed for 'scott'@'localhost'
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:38:04.735
+!MESSAGE Operation ALTER USER failed for 'scott'@'localhost'
+!STACK 0
+java.sql.SQLException: Operation ALTER USER failed for 'scott'@'localhost'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:39:31.859
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--회원 번호 (PK)
+    USER_ID VARCHAR2(100) UNIQUE,    --아이디 (유니�' at line 9
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:39:31.859
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--회원 번호 (PK)
+    USER_ID VARCHAR2(100) UNIQUE,    --아이디 (유니�' at line 9
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--회원 번호 (PK)
+    USER_ID VARCHAR2(100) UNIQUE,    --아이디 (유니�' at line 9
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:02.742
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    
+    USER_PASSWORD VARCHAR2(100),    
+    USER_NAME V' at line 10
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:02.742
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    
+    USER_PASSWORD VARCHAR2(100),    
+    USER_NAME V' at line 10
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    
+    USER_PASSWORD VARCHAR2(100),    
+    USER_NAME V' at line 10
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:20.890
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--회원 번호 (PK)
+    USER_ID VARCHAR2(100) UNIQUE,    --아이디 (유니�' at line 9
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:20.890
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--회원 번호 (PK)
+    USER_ID VARCHAR2(100) UNIQUE,    --아이디 (유니�' at line 9
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--회원 번호 (PK)
+    USER_ID VARCHAR2(100) UNIQUE,    --아이디 (유니�' at line 9
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:52.698
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    -- 아이디 (유니크)
+    USER_PASSWORD VARCHAR2(10' at line 10
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:52.698
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    -- 아이디 (유니크)
+    USER_PASSWORD VARCHAR2(10' at line 10
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    -- 아이디 (유니크)
+    USER_PASSWORD VARCHAR2(10' at line 10
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:56.896
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    -- 아이디 (유니크)
+    USER_PASSWORD VARCHAR2(10' at line 10
+
+Error position: line: 9
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:56.897
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    -- 아이디 (유니크)
+    USER_PASSWORD VARCHAR2(10' at line 10
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-06-19 17:40:56.897
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    -- 아이디 (유니크)
+    USER_PASSWORD VARCHAR2(10' at line 10
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VARCHAR2(100) UNIQUE,    -- 아이디 (유니크)
+    USER_PASSWORD VARCHAR2(10' at line 10
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:16.541
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sysdate,                -- 회원 가입일
+    USER_DELETE_ACCOUNT_DATE DATE D' at line 20
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:16.541
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sysdate,                -- 회원 가입일
+    USER_DELETE_ACCOUNT_DATE DATE D' at line 20
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sysdate,                -- 회원 가입일
+    USER_DELETE_ACCOUNT_DATE DATE D' at line 20
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:20.796
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sysdate,                -- 회원 가입일
+    USER_DELETE_ACCOUNT_DATE DATE D' at line 20
+
+Error position: line: 19
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:20.796
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sysdate,                -- 회원 가입일
+    USER_DELETE_ACCOUNT_DATE DATE D' at line 20
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:20.796
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sysdate,                -- 회원 가입일
+    USER_DELETE_ACCOUNT_DATE DATE D' at line 20
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sysdate,                -- 회원 가입일
+    USER_DELETE_ACCOUNT_DATE DATE D' at line 20
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:35.900
+!MESSAGE SQL Error [1067] [42000]: Invalid default value for 'USER_SIGNUP_DATE'
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:35.900
+!MESSAGE Invalid default value for 'USER_SIGNUP_DATE'
+!STACK 0
+java.sql.SQLSyntaxErrorException: Invalid default value for 'USER_SIGNUP_DATE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:56.061
+!MESSAGE SQL Error [1067] [42000]: Invalid default value for 'USER_SIGNUP_DATE'
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:41:56.061
+!MESSAGE Invalid default value for 'USER_SIGNUP_DATE'
+!STACK 0
+java.sql.SQLSyntaxErrorException: Invalid default value for 'USER_SIGNUP_DATE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:42:38.650
+!MESSAGE SQL Error [1067] [42000]: Invalid default value for 'USER_SIGNUP_DATE'
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:42:38.650
+!MESSAGE Invalid default value for 'USER_SIGNUP_DATE'
+!STACK 0
+java.sql.SQLSyntaxErrorException: Invalid default value for 'USER_SIGNUP_DATE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:43:40.679
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        --회원 번호 증가 시퀀스 생성
+    START ' at line 1
+
+Error position:
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:43:40.679
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        --회원 번호 증가 시퀀스 생성
+    START ' at line 1
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-06-19 17:43:40.679
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        --회원 번호 증가 시퀀스 생성
+    START ' at line 1
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        --회원 번호 증가 시퀀스 생성
+    START ' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:43:45.206
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        -- 회원 번호 증가 시퀀스 생성
+    START' at line 1
+
+Error position:
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:43:45.206
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        -- 회원 번호 증가 시퀀스 생성
+    START' at line 1
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-06-19 17:43:45.206
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        -- 회원 번호 증가 시퀀스 생성
+    START' at line 1
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        -- 회원 번호 증가 시퀀스 생성
+    START' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:44:25.787
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        -- 회원 번호 증가 시퀀스 생성
+    START' at line 1
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:44:25.787
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        -- 회원 번호 증가 시퀀스 생성
+    START' at line 1
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEQUENCE TB_USERS_SEQ        -- 회원 번호 증가 시퀀스 생성
+    START' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-06-19 17:45:33.033
+!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY REFERENCES TB_USERS(USER_ID),
+    GRP_KICK VARCHAR(100),
+    GRP_M' at line 3
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-06-19 17:45:33.033
+!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY REFERENCES TB_USERS(USER_ID),
+    GRP_KICK VARCHAR(100),
+    GRP_M' at line 3
+!STACK 0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY REFERENCES TB_USERS(USER_ID),
+    GRP_KICK VARCHAR(100),
+    GRP_M' at line 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
