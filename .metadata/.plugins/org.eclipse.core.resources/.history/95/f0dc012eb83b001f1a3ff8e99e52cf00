@@ -139,7 +139,3 @@ CREATE TABLE TB_FRND_LIST (
 SELECT * FROM tb_frnd_list;
 
 DROP TABLE tb_frnd_list;
-
-CREATE TABLE TBtestest (
-    FRND_NO INT
-    )
