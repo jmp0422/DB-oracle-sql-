@@ -26,15 +26,6 @@ CREATE TABLE movie2 (
     PRIMARY KEY (movienum)
 );
 
-CREATE TABLE young (
-    bizId VARCHAR(50) NOT NULL,
-    polyBizSjnm VARCHAR(100) NOT NULL,
-    plcyTpNm VARCHAR(100) NOT NULL,
-    cnsgNmor VARCHAR(100) NOT NULL,
-    rqutProcCn TEXT NOT NULL,
-    PRIMARY KEY (bizId)
-);
 
-SELECT * FROM young;
 
 SELECT * FROM movie2;

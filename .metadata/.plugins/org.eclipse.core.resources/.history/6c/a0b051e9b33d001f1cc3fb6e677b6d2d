@@ -35,6 +35,6 @@ CREATE TABLE young (
     PRIMARY KEY (bizId)
 );
 
-SELECT * FROM young;
+
 
 SELECT * FROM movie2;
