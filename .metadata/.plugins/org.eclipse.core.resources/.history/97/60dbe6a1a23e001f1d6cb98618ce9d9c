@@ -38,4 +38,3 @@ CREATE TABLE young (
 SELECT * FROM young;
 
 SELECT * FROM movie2;
-INSERT INTO movie2 values(1,"1","1","1","1","!");
