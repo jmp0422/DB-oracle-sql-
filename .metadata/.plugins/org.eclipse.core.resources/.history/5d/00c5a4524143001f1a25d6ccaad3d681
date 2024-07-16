@@ -35,6 +35,7 @@ CREATE TABLE young (
     PRIMARY KEY (bizId)
 );
 
-
+SELECT * FROM young;
 
 SELECT * FROM movie2;
+INSERT INTO movie2 values(4,"1","1","1","1","!");
