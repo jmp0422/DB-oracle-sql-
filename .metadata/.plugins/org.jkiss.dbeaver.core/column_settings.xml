@@ -61,7 +61,7 @@
 		<column name="Database size" visible="true" order="4" width="100"/>
 	</item>
 	<item id="Suggestion/NodeList/MySQLTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="120"/>
+		<column name="컬럼명" visible="true" order="0" width="122"/>
 		<column name="#" visible="true" order="1" width="56"/>
 		<column name="Data Type" visible="true" order="2" width="108"/>
 		<column name="Not Null" visible="false" order="3" width="100"/>

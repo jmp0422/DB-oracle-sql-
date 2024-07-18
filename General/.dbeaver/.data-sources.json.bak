@@ -6,6 +6,7 @@
 			"driver": "mysql8",
 			"name": "localhost 2",
 			"save-password": true,
+			"read-only": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "3306",
@@ -176,7 +177,7 @@
 			"name": "Development",
 			"color": "255,255,255",
 			"description": "Regular development database",
-			"auto-commit": true,
+			"auto-commit": false,
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,
