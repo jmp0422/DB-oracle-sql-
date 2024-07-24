@@ -20,66 +20,11 @@ SELECT * FROM testproduct;
 CREATE TABLE testprice (
     username VARCHAR(50),
     productname VARCHAR(50),
-    productinfo VARCHAR(255),
     productprice INT,
-    date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    imd varchar(255),
-    refund CHAR(1) DEFAULT 'N',
-    refund_date TIMESTAMP DEFAULT NULL
+    date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    
 );
 SELECT * FROM testprice;
-DROP TABLE testprice;
-INSERT INTO testprice values("jack", "samsung super666", "서라운드 스피커 / GEFORCE RTX 4090 / 165HZ / WINDOWS내장 / 1440*1060", 20000, NOW(), NULL ,DEFAULT , NULL);
-
-
-CREATE TABLE mem_member (
-    member_no INT NOT NULL AUTO_INCREMENT,
-    member_name VARCHAR(30) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    nick_name VARCHAR(50),
-    tel VARCHAR(15),
-    point INT NOT NULL DEFAULT 0,
-    role VARCHAR(15) NOT NULL DEFAULT 'ROLE_USER',
-    login_type VARCHAR(15) NOT NULL DEFAULT 'local',
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (member_no),
-    UNIQUE (member_name),
-    UNIQUE (nick_name)
-);
-SELECT * FROM mem_member;
-CREATE TABLE mem_password (
-    password_id INT NOT NULL AUTO_INCREMENT,
-    member_no INT NOT NULL,
-    member_password VARCHAR(128) NOT NULL,
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (password_id),
-    FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
-);
-SELECT * FROM mem_password;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 CREATE TABLE payment_product (
