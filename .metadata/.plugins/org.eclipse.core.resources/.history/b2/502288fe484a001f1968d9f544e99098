@@ -29,9 +29,7 @@ CREATE TABLE testprice (
 );
 SELECT * FROM testprice;
 DROP TABLE testprice;
-INSERT INTO testprice values("jack", "samsung super111", "서라운드 스피커 / GEFORCE RTX 4090 / 165HZ / WINDOWS내장 / 1440*1060", 20000, NOW(), 113 ,DEFAULT , NULL);
-INSERT INTO testprice values("jack", "samsung super222", "서라운드 스피커 / GEFORCE RTX 4090 / 165HZ / WINDOWS내장 / 1440*1060", 20000, NOW(), 222 ,DEFAULT , NULL);
-INSERT INTO testprice values("jack", "samsung super333", "서라운드 스피커 / GEFORCE RTX 4090 / 165HZ / WINDOWS내장 / 1440*1060", 20000, NOW(), 444 ,DEFAULT , NULL);
+INSERT INTO testprice values("jack", "samsung super666", "서라운드 스피커 / GEFORCE RTX 4090 / 165HZ / WINDOWS내장 / 1440*1060", 20000, NOW(), NULL ,DEFAULT , NULL);
 
 
 CREATE TABLE mem_member (
@@ -115,20 +113,19 @@ SELECT * FROM payment;
 
 
 
-CREATE TABLE payment_point(
+CREATE TABLE payment_price(
     payment_price_no INT AUTO_INCREMENT PRIMARY key,
-    username varchar(255),
-    payment_possession_point INT DEFAULT 0,
-    payment_point_change varchar(255),
-    payment_point_info varchar(255),
-    create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    modify_date TIMESTAMP DEFAULT NULL
+    payment_no INT,
+    use_point_price INT,
+    payment_discount INT,
+    payment_final_price INT,
+    create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 --     CONSTRAINT `payment_price` FOREIGN KEY (`payment_no`) REFERENCES `payment` (`payment_no`),
 );
-INSERT INTO payment_point values( NULL , "jack", 50 , null, null ,default,default);
-DROP TABLE payment_point;
+INSERT INTO payment_price values( NULL , 1, 100 , 100, 100 ,default);
+DROP TABLE payment_price;
+SELECT * FROM payment_price;
 
-SELECT * FROM payment_point;
 
 
 
