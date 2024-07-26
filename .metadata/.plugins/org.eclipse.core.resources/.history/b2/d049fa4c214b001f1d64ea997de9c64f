@@ -125,18 +125,7 @@ CREATE TABLE payment_point(
     modify_date TIMESTAMP DEFAULT NULL
 --     CONSTRAINT `payment_price` FOREIGN KEY (`payment_no`) REFERENCES `payment` (`payment_no`),
 );
-
-CREATE TABLE payment_point (
-    payment_price_no INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255),
-    payment_possession_point INT DEFAULT 0 CHECK (payment_possession_point >= 0),
-    payment_point_change VARCHAR(255),
-    payment_point_info VARCHAR(255),
-    create_date TIMESTAMP DEFAULT NULL
-    -- CONSTRAINT `payment_price` FOREIGN KEY (`payment_no`) REFERENCES `payment` (`payment_no`)
-);
-
-INSERT INTO payment_point values( NULL , "jack", 100 , null, null , NOW());
+INSERT INTO payment_point values( NULL , "jack", 50 , null, null ,default,default);
 DROP TABLE payment_point;
 
 SELECT * FROM payment_point;
