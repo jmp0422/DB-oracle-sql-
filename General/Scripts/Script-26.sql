@@ -65,6 +65,7 @@ SELECT * FROM mem_password;
 CREATE TABLE mem_pas23sword (
     password_id INT
     );
+DROP TABLE mem_pas23sword;
 
 
 

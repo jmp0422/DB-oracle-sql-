@@ -1,21 +1,21 @@
-2024-07-27 09:45:14.314 - DBeaver 24.0.3.202404211624 is starting
-2024-07-27 09:45:14.315 - OS: Windows 10 10.0 (amd64)
-2024-07-27 09:45:14.315 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-07-27 09:45:14.315 - Install path: 'H:\workspace\oracle\DBeaver'
-2024-07-27 09:45:14.315 - Instance path: 'file:/H:/workspace/multi/04_db/'
-2024-07-27 09:45:14.316 - Memory available 64Mb/1024Mb
-2024-07-27 09:45:14.323 - Create display
-2024-07-27 09:45:14.500 - Initialize desktop platform...
-2024-07-27 09:45:14.654 - BounceCastle bundle found. Use JCE provider BC
+2024-07-30 09:18:42.025 - DBeaver 24.0.3.202404211624 is starting
+2024-07-30 09:18:42.026 - OS: Windows 10 10.0 (amd64)
+2024-07-30 09:18:42.027 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-07-30 09:18:42.027 - Install path: 'H:\workspace\oracle\DBeaver'
+2024-07-30 09:18:42.027 - Instance path: 'file:/H:/workspace/multi/04_db/'
+2024-07-30 09:18:42.029 - Memory available 64Mb/1024Mb
+2024-07-30 09:18:42.036 - Create display
+2024-07-30 09:18:42.147 - Initialize desktop platform...
+2024-07-30 09:18:42.267 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
-2024-07-27 09:45:15.019 - Initialize base platform...
-2024-07-27 09:45:15.048 - Platform initialized (548ms)
+2024-07-30 09:18:42.454 - Initialize base platform...
+2024-07-30 09:18:42.478 - Platform initialized (331ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
-2024-07-27 09:45:15.193 - Starting instance server at http://localhost:3840
-2024-07-27 09:45:15.217 - Run workbench
+2024-07-30 09:18:42.633 - Starting instance server at http://localhost:7824
+2024-07-30 09:18:42.642 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
@@ -28,18 +28,18 @@
 > Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
-2024-07-27 09:45:23.490 - Configure workbench window
+2024-07-30 09:18:44.962 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
-2024-07-27 09:45:23.698 - Total database drivers: 112 (112)
+2024-07-30 09:18:45.178 - Total database drivers: 112 (112)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
-2024-07-27 09:45:23.900 - Create actions
-2024-07-27 09:45:23.915 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-07-27 09:45:23.916 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-07-27 09:45:23.916 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-07-27 09:45:23.916 - Create workbench actions
+2024-07-30 09:18:45.374 - Create actions
+2024-07-30 09:18:45.409 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-07-30 09:18:45.409 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-07-30 09:18:45.410 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-07-30 09:18:45.410 - Create workbench actions
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
-2024-07-27 09:45:25.206 - Initialize workbench window
-2024-07-27 09:45:25.211 - Finish initialization
+2024-07-30 09:18:46.274 - Initialize workbench window
+2024-07-30 09:18:46.281 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
@@ -57,25 +57,25 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
 > Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
 > Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
-> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
-2024-07-27 09:45:28.636 - Connect with 'localhost 2' (mysql8-18f3c4755fa-48d44911c1ae78cb)
-> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+2024-07-30 09:18:49.797 - Connect with 'localhost 2' (mysql8-18f3c4755fa-48d44911c1ae78cb)
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
-2024-07-27 09:45:28.677 - Execution context opened (localhost 2; Main; 0)
+2024-07-30 09:18:49.837 - Execution context opened (localhost 2; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
-2024-07-27 09:45:28.951 - Execution context opened (localhost 2; Metadata; 1)
-2024-07-27 09:45:29.031 - Connected (mysql8-18f3c4755fa-48d44911c1ae78cb, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-07-27 09:45:29.068 - Execution context opened (localhost 2; SQLEditor <Script-26.sql>; 2)
-2024-07-27 09:45:30.153 - Open [https://dbeaver.io/product/version.xml]
+2024-07-30 09:18:50.102 - Execution context opened (localhost 2; Metadata; 1)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+2024-07-30 09:18:50.183 - Connected (mysql8-18f3c4755fa-48d44911c1ae78cb, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-07-30 09:18:50.189 - Execution context opened (localhost 2; SQLEditor <Script-26.sql>; 2)
+2024-07-30 09:18:51.247 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
-> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
-2024-07-27 09:46:16.587 - Execution context closed (localhost 2, 2)
-2024-07-27 09:46:17.030 - DBeaver is stopping
-2024-07-27 09:46:17.032 - Stop instance server
-2024-07-27 09:46:18.038 - Instance server has been stopped
-2024-07-27 09:46:18.038 - DBeaver shutdown completed
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
+2024-07-30 11:14:23.922 - Execution context closed (localhost 2, 2)
+2024-07-30 11:14:24.428 - DBeaver is stopping
+2024-07-30 11:14:24.432 - Stop instance server
+2024-07-30 11:14:25.442 - DBeaver shutdown completed
