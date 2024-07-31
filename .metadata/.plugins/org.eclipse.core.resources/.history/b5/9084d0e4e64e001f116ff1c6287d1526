@@ -141,6 +141,7 @@ CREATE TABLE payment_point (
 
 INSERT INTO payment_point values( NULL , "jack", 100 , null, null , NOW());
 DROP TABLE payment_point;
+
 SELECT * FROM payment_point;
 
 
