@@ -13,7 +13,6 @@ CREATE TABLE payment (
     productname VARCHAR(50),
     productinfo VARCHAR(255),
     productprice INT,
-    purchaseprice INT,
     date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     imd varchar(255),
     refund CHAR(1) DEFAULT 'N',
