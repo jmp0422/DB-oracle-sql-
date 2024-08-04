@@ -46,7 +46,7 @@ CREATE TABLE payment_point (
     -- CONSTRAINT `payment_price` FOREIGN KEY (`payment_no`) REFERENCES `payment` (`payment_no`)
 );
 
-INSERT INTO payment_point values( NULL , "jack",NULL, 500 , null, null , NOW());
+INSERT INTO payment_point values( NULL , "jack",NULL, 1000 , null, null , NOW());
 DROP TABLE payment_point;
 SELECT * FROM payment_point;
 

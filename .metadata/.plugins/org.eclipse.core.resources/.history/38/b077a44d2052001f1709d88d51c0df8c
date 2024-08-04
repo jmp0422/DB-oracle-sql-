@@ -62,7 +62,10 @@ CREATE TABLE mem_password (
 SELECT * FROM mem_password;
 
 
-
+CREATE TABLE mem_pas23sword (
+    password_id INT
+    );
+DROP TABLE mem_pas23sword;
 
 
 
@@ -138,7 +141,6 @@ CREATE TABLE payment_point (
 
 INSERT INTO payment_point values( NULL , "jack", 100 , null, null , NOW());
 DROP TABLE payment_point;
-
 SELECT * FROM payment_point;
 
 
