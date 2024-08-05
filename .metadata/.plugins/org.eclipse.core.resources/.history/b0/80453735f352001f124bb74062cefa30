@@ -100,7 +100,6 @@ CREATE TABLE product (
     CONSTRAINT fk_product_type_no FOREIGN KEY (type_no) REFERENCES product_type(type_no)
 );
 DROP TABLE product;
-DELETE FROM product WHERE type_no = 1;
 SELECT * FROM product;
 
 CREATE VIEW product_detail AS
@@ -124,7 +123,6 @@ WHERE
     p.type_no = 1;
    
 SELECT * FROM product_detail;
-DROP VIEW product_detail;
 
 -- 상품 카테고리 테이블
 CREATE TABLE product_category (
@@ -135,7 +133,6 @@ CREATE TABLE product_category (
     CONSTRAINT fk_product_category_type_no FOREIGN KEY (type_no) REFERENCES product_type(type_no)
 );
 DROP TABLE product_category;
-SELECT * FROM product_category;
 
 -- 상품타입 테이블
 CREATE TABLE product_type (
@@ -144,7 +141,6 @@ CREATE TABLE product_type (
     CONSTRAINT product_type_PK PRIMARY KEY(type_no)
 );
 DROP TABLE product_type;
-SELECT * FROM product_type;
 
 -- 상품타입 데이터
 insert into product_type values(1,'노트북');
@@ -162,7 +158,6 @@ CREATE TABLE product_spec (
     CONSTRAINT fk_product_spec_product_no FOREIGN KEY (product_no) REFERENCES product(product_no),
     CONSTRAINT fk_product_spec_category_no FOREIGN KEY (category_no) REFERENCES product_category(category_no)
 );
-DROP TABLE product_spec;
 SELECT * FROM product_spec;
 -- 위시리스트 테이블
 CREATE TABLE wishlist (
@@ -172,8 +167,6 @@ CREATE TABLE wishlist (
 	created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	CONSTRAINT wishlist_PK PRIMARY KEY(wishlist_no)
 );
-DROP TABLE wishlist ;
-SELECT * FROM wishlist;
 
 -- 이미지 매핑 테이블
 CREATE TABLE images (
@@ -185,8 +178,6 @@ CREATE TABLE images (
 	updated_at TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP,
 	CONSTRAINT images_PK PRIMARY KEY(image_no)
 );
-DROP TABLE images ;
-SELECT * FROM images;
 
 
 -- 리뷰 데이터 테이블
@@ -200,5 +191,3 @@ create table review (
 	FOREIGN key (product_no) REFERENCES product(product_no) ON DELETE CASCADE
 
 );
-DROP TABLE review;
-SELECT * FROM ;

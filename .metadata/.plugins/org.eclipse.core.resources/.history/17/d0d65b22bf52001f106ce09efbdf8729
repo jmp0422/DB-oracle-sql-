@@ -20,7 +20,7 @@ CREATE TABLE payment (
     refund_date TIMESTAMP DEFAULT NULL
 );
 SELECT * from payment;
-DROP TABLE payment;
+DROP TABLE payment ;
 
 
 CREATE TABLE paymentpage (
@@ -36,16 +36,17 @@ SELECT * FROM paymentpage;
 
 
 CREATE TABLE payment_point (
-    payment_point_no INT NOT NULL AUTO_INCREMENT,
-    member_no INT NOT NULL,
+    payment_price_no INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255),
     im_port_id varchar(255),
-    payment_point_change INT NOT NULL,
-    payment_point_info VARCHAR(20),
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (payment_point_no),
-    CONSTRAINT member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
+    payment_possession_point INT DEFAULT 0 CHECK (payment_possession_point >= 0),
+    payment_point_change VARCHAR(255),
+    payment_point_info VARCHAR(255),
+    create_date TIMESTAMP DEFAULT NULL
+    -- CONSTRAINT `payment_price` FOREIGN KEY (`payment_no`) REFERENCES `payment` (`payment_no`)
 );
+
+INSERT INTO payment_point values( NULL , "jack",NULL, 500 , null, null , NOW());
 DROP TABLE payment_point;
 SELECT * FROM payment_point;
 
