@@ -215,5 +215,4 @@ FROM
     product_detail pd
 GROUP BY 
     pd.product_name, pd.product_code, pd.type_no, pd.price;
-SELECT * FROM view_paymentpage;
-DROP VIEW view_paymentpage;
+SELECT * FROM view_paymentpage WHERE product_code = 17227823;DROP VIEW view_paymentpage;
