@@ -103,34 +103,28 @@ DROP TABLE product;
 DELETE FROM product WHERE type_no = 1;
 SELECT * FROM product;
 
-
-   
-
-
-
--- 프로덕트 디테일 view
-CREATE VIEW vw_product_detail AS
-SELECT
-	p.product_no,
+CREATE VIEW product_detail AS
+SELECT 
     p.product_name,
     p.product_code,
     p.type_no,
     p.price,
-    c.category_no,
     c.options,
     s.option_value,
     i.upload_name
-FROM
+FROM 
     product p
-JOIN
+JOIN 
     product_spec s ON p.product_no = s.product_no
-JOIN
+JOIN 
     product_category c ON s.category_no = c.category_no
-JOIN
-    images i ON p.reference_code = i.reference_code;
+JOIN 
+    images i ON p.reference_code = i.reference_code
+WHERE 
+    p.type_no = 1;
    
-SELECT * FROM vw_product_detail;
-drop view vw_product_detail
+SELECT * FROM product_detail;
+DROP VIEW product_detail;
 
 -- 상품 카테고리 테이블
 CREATE TABLE product_category (
@@ -192,8 +186,7 @@ CREATE TABLE images (
 	CONSTRAINT images_PK PRIMARY KEY(image_no)
 );
 DROP TABLE images ;
-SELECT * FROM images WHERE upload_name = "0d7e8158-4e21-4bcb-a179-d5336f96ecfe.jpg";
-
+SELECT * FROM images;
 
 
 -- 리뷰 데이터 테이블
@@ -210,18 +203,17 @@ create table review (
 DROP TABLE review;
 SELECT * FROM ;
 
-create view vw_spec_and_value as
-    SELECT
-    s.spec_no,
-    s.product_no,
-    s.category_no,
-    s.option_value,
-    c.options
-    FROM
-    product_spec s
-    JOIN
-    product p ON s.product_no = p.product_no
-    JOIN
-    product_category c ON s.category_no = c.category_no;
-    
-SELECT * FROM vw_spec_and_value;
+CREATE VIEW view_paymentpage AS
+SELECT 
+    pd.product_name,
+    pd.product_code,
+    pd.type_no,
+    pd.price,
+    GROUP_CONCAT(CONCAT(pd.options, ' : ', pd.option_value) SEPARATOR ' / ') AS product_info,
+    MAX(pd.upload_name) AS upload_name
+FROM 
+    product_detail pd
+GROUP BY 
+    pd.product_name, pd.product_code, pd.type_no, pd.price;
+SELECT * FROM view_paymentpage;
+DROP VIEW view_paymentpage;

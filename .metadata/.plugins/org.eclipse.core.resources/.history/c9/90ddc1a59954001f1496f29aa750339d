@@ -210,6 +210,21 @@ create table review (
 DROP TABLE review;
 SELECT * FROM ;
 
+CREATE VIEW view_paymentpage AS
+SELECT 
+    pd.product_name,
+    pd.product_code,
+    pd.type_no,
+    pd.price,
+    GROUP_CONCAT(CONCAT(pd.options, ' : ', pd.option_value) SEPARATOR ' / ') AS product_info,
+    MAX(pd.upload_name) AS upload_name
+FROM 
+    product_detail pd
+GROUP BY 
+    pd.product_name, pd.product_code, pd.type_no, pd.price;
+SELECT * FROM view_paymentpage;
+DROP VIEW view_paymentpage;
+
 create view vw_spec_and_value as
     SELECT
     s.spec_no,
