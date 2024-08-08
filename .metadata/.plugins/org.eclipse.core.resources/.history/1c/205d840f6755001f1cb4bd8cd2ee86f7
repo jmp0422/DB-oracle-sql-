@@ -73,6 +73,19 @@ CREATE TABLE mem_delivery_address (
 );
 DROP TABLE mem_delivery_address;
 
+CREATE TABLE payment_point (
+    payment_point_no INT NOT NULL AUTO_INCREMENT,
+    member_no INT NOT NULL,
+    im_port_id varchar(255),
+    payment_point_change INT NOT NULL,
+    payment_point_info VARCHAR(20),
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (payment_point_no),
+    CONSTRAINT member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
+);
+DROP TABLE payment_point;
+SELECT * FROM payment_point;
+
 -- 상품 테이블
 CREATE TABLE product (
     product_no INT NOT NULL AUTO_INCREMENT,
@@ -179,7 +192,7 @@ CREATE TABLE images (
 	CONSTRAINT images_PK PRIMARY KEY(image_no)
 );
 DROP TABLE images ;
-SELECT * FROM images;
+SELECT * FROM images WHERE upload_name = "0d7e8158-4e21-4bcb-a179-d5336f96ecfe.jpg";
 
 
 
@@ -212,161 +225,3 @@ create view vw_spec_and_value as
     product_category c ON s.category_no = c.category_no;
     
 SELECT * FROM vw_spec_and_value;
-
-CREATE TABLE payment (
-	payment_no INT AUTO_INCREMENT PRIMARY KEY,
-    member_no INT NOT NULL,
-    product_no INT NOT NULL,
-    purchase_price INT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    im_port_id varchar(255),
-    confirm char(1) DEFAULT 'N',
-    confirm_at TIMESTAMP DEFAULT NULL,
-    refund CHAR(1) DEFAULT 'N',
-    refund_at TIMESTAMP DEFAULT NULL,
-    CONSTRAINT payment_member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE,
-    CONSTRAINT payment_product_no_fk FOREIGN KEY (product_no) REFERENCES product(product_no) ON DELETE CASCADE
-);
-SELECT * from payment;
-DROP TABLE payment;
-
-
-
-
-
-CREATE TABLE payment_point (
-    payment_point_no INT NOT NULL AUTO_INCREMENT,
-    member_no INT NOT NULL,
-    im_port_id varchar(255),
-    payment_point_change INT NOT NULL,
-    payment_point_info VARCHAR(20),
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (payment_point_no),
-    CONSTRAINT member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
-);
-DROP TABLE payment_point;
-SELECT * FROM payment_point;
-
-
-
-CREATE TABLE payment_product_reviews (
-    payment_product_reviews_no INT AUTO_INCREMENT PRIMARY key,
-    member_no INT NOT NULL,
-    product_no INT NOT NULL,
-    tag_answer char(1) DEFAULT 'N',
-    content varchar(255),
-    rating varchar(255),
-    im_port_id varchar(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    modify_at TIMESTAMP DEFAULT NULL,
-    CONSTRAINT payment_review_member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE,
-    CONSTRAINT payment_review_product_no_fk FOREIGN KEY (product_no) REFERENCES product(product_no) ON DELETE CASCADE
-);
-DROP TABLE payment_product_reviews;
-SELECT * FROM payment_product_reviews;
-
-SELECT * FROM ;
-
-CREATE OR REPLACE VIEW vw_paymentpage AS
-SELECT
-    p.product_no,
-    pd.product_name,
-    pd.product_code,
-    pd.type_no,
-    pd.price,
---     GROUP_CONCAT(CONCAT(pd.options, ' : ', pd.option_value) SEPARATOR ' / ') AS product_info,
-    MAX(pd.upload_name) AS upload_name
-FROM
-    product p
-JOIN
-    vw_product_detail pd ON p.product_name = pd.product_name
-GROUP BY
-    p.product_no, pd.product_name, pd.product_code, pd.type_no, pd.price;
-SELECT * FROM vw_paymentpage;
-DROP VIEW vw_paymentpage;
-
-CREATE TRIGGER update_payment_on_review_insert
-AFTER INSERT ON payment_product_reviews
-FOR EACH ROW
-BEGIN
-    UPDATE payment
-    SET confirm = 'Y',
-        confirm_at = CURRENT_TIMESTAMP
-    WHERE im_port_id = NEW.im_port_id
-    AND confirm = 'N';
-END;
-
-
-
-CREATE TABLE personalquestion_category(
-	personalq_categorycode varchar(50) PRIMARY KEY,
-	personalq_categoryname varchar(100)
-);
--- 상품 문의 카테고리
-CREATE TABLE productquestion_category(
-	productq_categorycode varchar(50) PRIMARY KEY,
-	productq_categoryname varchar(100)
-);
--- 1:1 문의 테이블
-CREATE TABLE personal_question (
-    personalq_no INT AUTO_INCREMENT PRIMARY KEY,
-    member_no INT,
-    personalq_categorycode VARCHAR(50),
-    title VARCHAR(100) NOT NULL,
-    content text NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    answer VARCHAR(2) DEFAULT 'N',
-    reference_code VARCHAR(100),
-    FOREIGN KEY (member_no) REFERENCES mem_member(member_no),
-    FOREIGN KEY (personalq_categorycode) REFERENCES personalquestion_category(personalq_categorycode)
-);
--- 상품 문의 테이블
-CREATE TABLE product_question (
-    productq_no INT AUTO_INCREMENT PRIMARY KEY,
-    member_no INT,
-    productq_categorycode VARCHAR(50),
-    product_no int,
-    title VARCHAR(100) NOT NULL,
-    content text NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    answer VARCHAR(2) DEFAULT 'N',
-    secret VARCHAR(2) DEFAULT 'N',
-    reference_code VARCHAR(100),
-    FOREIGN KEY (member_no) REFERENCES mem_member(member_no),
-    FOREIGN KEY (productq_categorycode) REFERENCES productquestion_category(productq_categorycode),
-    FOREIGN KEY (product_no) REFERENCES product(product_no)
-);
--- 1:1 문의 답변 테이블
-CREATE TABLE personal_answer(
-	personala_no int AUTO_INCREMENT PRIMARY KEY,
-	personalq_no int,
-	title varchar(100) NOT null,
-	content text NOT NULL,
-	created_at timestamp DEFAULT current_timestamp,
-	updated_at timestamp ON UPDATE CURRENT_TIMESTAMP,
-	reference_code varchar(100),
-	FOREIGN KEY (personalq_no) REFERENCES personal_question(personalq_no)
-);
--- 상품 문의 답변 테이블
-CREATE TABLE product_answer(
-	producta_no int AUTO_INCREMENT PRIMARY KEY,
-	productq_no int,
-	title varchar(100) NOT null,
-	content text NOT NULL,
-	created_at timestamp DEFAULT current_timestamp,
-	updated_at timestamp ON UPDATE CURRENT_TIMESTAMP,
-	reference_code varchar(100),
-	FOREIGN KEY (productq_no) REFERENCES product_question(productq_no)
-);
--- 이미지 테이블
-CREATE TABLE images(
-	image_no int AUTO_INCREMENT PRIMARY KEY,
-	origin_name varchar(255),
-	upload_name varchar(255),
-	created_at timestamp DEFAULT current_timestamp,
-	updated_at timestamp ON UPDATE CURRENT_TIMESTAMP,
-	reference_code varchar(100)
-);
