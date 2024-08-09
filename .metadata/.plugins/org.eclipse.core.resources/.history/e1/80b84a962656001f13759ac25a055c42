@@ -28,7 +28,6 @@ DROP TABLE payment;
 
 
 
-
 CREATE TABLE payment_point (
     payment_point_no INT NOT NULL AUTO_INCREMENT,
     member_no INT NOT NULL,
@@ -42,8 +41,6 @@ CREATE TABLE payment_point (
 );
 DROP TABLE payment_point;
 SELECT * FROM payment_point;
-
-SELECT * FROM payment_point WHERE im_port_id = "imp_410483301292";
 
 
 
@@ -93,6 +90,7 @@ BEGIN
     WHERE im_port_id = NEW.im_port_id
     AND confirm = 'N';
 END;
+
 
 
 -- CREATE TABLE paymentpage (
