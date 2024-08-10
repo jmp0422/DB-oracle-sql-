@@ -1,0 +1,6 @@
+-- New script in localhost 2 1.
+-- Connection Type: dev 
+-- Url: jdbc:mysql://localhost:3306/
+-- workspace : H:\workspace\multi\04_db
+-- Date: 2024. 8. 9.
+-- Time: 오후 5:48:11
