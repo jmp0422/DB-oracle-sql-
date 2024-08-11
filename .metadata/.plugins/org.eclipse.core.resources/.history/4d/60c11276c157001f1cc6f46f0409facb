@@ -71,7 +71,6 @@ CREATE TABLE mem_delivery_address (
     PRIMARY KEY (address_id),
     FOREIGN KEY (member_no) REFERENCES mem_member(member_no)
 );
-SELECT * FROM mem_delivery_address;
 DROP TABLE mem_delivery_address;
 
 -- 상품 테이블
