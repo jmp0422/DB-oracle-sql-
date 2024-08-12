@@ -74,9 +74,6 @@ CREATE TABLE mem_delivery_address (
 SELECT * FROM mem_delivery_address;
 DROP TABLE mem_delivery_address;
 
-INSERT INTO mem_delivery_address VALUES (NULL, 4, "우리집" , "박재민", "11111", "가나다라", "마바사", "01000000000", "가나", DEFAULT, NULL);
-
-
 -- 상품 테이블
 CREATE TABLE product (
     product_no INT NOT NULL AUTO_INCREMENT,
