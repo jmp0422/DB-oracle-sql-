@@ -344,9 +344,6 @@ CREATE TABLE personal_question (
     FOREIGN KEY (member_no) REFERENCES mem_member(member_no),
     FOREIGN KEY (personalq_categorycode) REFERENCES personalquestion_category(personalq_categorycode)
 );
-
-SELECT * FROM personal_question;
-
 -- 상품 문의 테이블
 CREATE TABLE product_question (
     productq_no INT AUTO_INCREMENT PRIMARY KEY,
@@ -364,9 +361,6 @@ CREATE TABLE product_question (
     FOREIGN KEY (productq_categorycode) REFERENCES productquestion_category(productq_categorycode),
     FOREIGN KEY (product_no) REFERENCES product(product_no)
 );
-
-SELECT * FROM product_question;
-
 -- 1:1 문의 답변 테이블
 CREATE TABLE personal_answer(
 	personala_no int AUTO_INCREMENT PRIMARY KEY,
@@ -397,17 +391,4 @@ CREATE TABLE images(
 	created_at timestamp DEFAULT current_timestamp,
 	updated_at timestamp ON UPDATE CURRENT_TIMESTAMP,
 	reference_code varchar(100)
-);
-
--- 공지사항 테이블
-CREATE TABLE notice(
-	notice_no int AUTO_INCREMENT PRIMARY KEY,
-	member_no int,
-	title varchar(100),
-	content text,
-	main_regist varchar(10) DEFAULT 'N',
-	create_at timestamp DEFAULT current_timestamp,
-	updated_at timestamp ON UPDATE CURRENT_TIMESTAMP,
-	reference_code varchar(100),
-	FOREIGN KEY (member_no) REFERENCES mem_member(member_no)
 );
