@@ -64,8 +64,6 @@ CREATE TABLE payment_product_reviews (
 DROP TABLE payment_product_reviews;
 SELECT * FROM payment_product_reviews;
 
-INSERT INTO payment_product_reviews values(DEFAULT, 1, 1, DEFAULT, "123123", 4, NULL, NOW(), null);
-
 SELECT * FROM ;
 
 CREATE OR REPLACE VIEW vw_paymentpage AS
@@ -125,9 +123,6 @@ BEGIN
         WHERE member_no = NEW.member_no;
     END IF;
 END;
-
-
-SHOW triggers;
 -- CREATE TABLE paymentpage (
 --     username VARCHAR(50),
 --     productname VARCHAR(50),

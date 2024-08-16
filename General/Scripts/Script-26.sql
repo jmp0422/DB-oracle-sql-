@@ -83,6 +83,17 @@ DROP TABLE mem_delivery_address;
 
 INSERT INTO mem_delivery_address VALUES (NULL, 4, "우리집" , "박재민", "11111", "가나다라", "마바사", "01000000000", "가나", DEFAULT, NULL);
 
+CREATE TABLE mem_seller_member (
+    seller_id INT NOT NULL AUTO_INCREMENT,
+    member_no INT NOT NULL,
+    company_name VARCHAR(64) NOT NULL,
+    representative_name VARCHAR(50) NOT NULL,
+    business_registration_number VARCHAR(50) NOT NULL,
+    PRIMARY KEY (seller_id),
+    CONSTRAINT seller_member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
+);
+
+
 
 -- 상품 테이블
 CREATE TABLE product (
