@@ -411,3 +411,40 @@ CREATE TABLE notice(
 	reference_code varchar(100),
 	FOREIGN KEY (member_no) REFERENCES mem_member(member_no)
 );
+
+INSERT INTO personalquestion_category VALUES ('personalq_member','회원');
+INSERT INTO personalquestion_category VALUES ('personalq_else','기타');
+INSERT INTO productquestion_category VALUES ('productq_product','상품');
+INSERT INTO productquestion_category VALUES ('productq_else','기타');
+INSERT INTO productquestion_category VALUES ('productq_opinion','의견');
+INSERT INTO productquestion_category VALUES ('productq_question','문의');
+
+-- 로그인 로그 테이블
+CREATE TABLE log_login (
+    login_log_id INT NOT NULL AUTO_INCREMENT,
+    member_no INT NOT NULL,
+    login_ip VARCHAR(45) NOT NULL,
+    user_agent VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (login_log_id),
+    CONSTRAINT log_login_member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
+);
+
+-- 방문자 수 테이블
+CREATE TABLE log_count_visit (
+    visit_log INT NOT NULL AUTO_INCREMENT,
+    visit_count INT NOT NULL DEFAULT 0,
+    created_at DATE NOT NULL,
+    PRIMARY KEY (visit_log),
+    UNIQUE (created_at)
+);
+SELECT * FROM log_login;
+SELECT * FROM log_count_visit;
+
+INSERT INTO log_count_visit (visit_count, created_at) 
+VALUES (1, DATE_SUB(CURDATE(), INTERVAL 5 DAY));
+
+alter table product
+add column view_count INT not null default 0;
+
+SELECT * FROM product;

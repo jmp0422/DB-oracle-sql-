@@ -28,7 +28,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="-316"/>
+		<item key="DIALOG_X_ORIGIN" value="8"/>
 		<item key="DIALOG_Y_ORIGIN" value="169"/>
 		<item key="DIALOG_WIDTH" value="324"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
