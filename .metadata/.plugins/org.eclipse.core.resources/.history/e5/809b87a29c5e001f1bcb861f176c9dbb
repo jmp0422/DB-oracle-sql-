@@ -6,6 +6,13 @@
 -- Time: 오후 3:24:14
 USE scott;
 
+ALTER TABLE mem_member
+ADD COLUMN is_active CHAR(1) NOT NULL DEFAULT 'N',
+ADD COLUMN is_active_at TIMESTAMP NULL;
+
+ALTER TABLE mem_member
+MODIFY COLUMN email VARCHAR(255) NULL;
+
 -- 회원 테이블
 CREATE TABLE mem_member (
     member_no INT NOT NULL AUTO_INCREMENT,
@@ -76,6 +83,17 @@ DROP TABLE mem_delivery_address;
 
 INSERT INTO mem_delivery_address VALUES (NULL, 4, "우리집" , "박재민", "11111", "가나다라", "마바사", "01000000000", "가나", DEFAULT, NULL);
 
+CREATE TABLE mem_seller_member (
+    seller_id INT NOT NULL AUTO_INCREMENT,
+    member_no INT NOT NULL,
+    company_name VARCHAR(64) NOT NULL,
+    representative_name VARCHAR(50) NOT NULL,
+    business_registration_number VARCHAR(50) NOT NULL,
+    PRIMARY KEY (seller_id),
+    CONSTRAINT seller_member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
+);
+
+
 
 -- 상품 테이블
 CREATE TABLE product (
@@ -95,7 +113,14 @@ DELETE FROM product WHERE type_no = 1;
 SELECT * FROM product;
 
 
-   
+상품 트리거 추가되엇습니다 
+
+CREATE TRIGGER delete_related_images
+AFTER DELETE ON product
+FOR EACH ROW
+BEGIN
+    DELETE FROM images WHERE reference_code = OLD.reference_code;
+END;
 
 
 
@@ -326,6 +351,9 @@ CREATE TABLE personal_question (
     FOREIGN KEY (member_no) REFERENCES mem_member(member_no),
     FOREIGN KEY (personalq_categorycode) REFERENCES personalquestion_category(personalq_categorycode)
 );
+
+SELECT * FROM personal_question;
+
 -- 상품 문의 테이블
 CREATE TABLE product_question (
     productq_no INT AUTO_INCREMENT PRIMARY KEY,
@@ -343,6 +371,9 @@ CREATE TABLE product_question (
     FOREIGN KEY (productq_categorycode) REFERENCES productquestion_category(productq_categorycode),
     FOREIGN KEY (product_no) REFERENCES product(product_no)
 );
+
+SELECT * FROM product_question;
+
 -- 1:1 문의 답변 테이블
 CREATE TABLE personal_answer(
 	personala_no int AUTO_INCREMENT PRIMARY KEY,
@@ -374,3 +405,53 @@ CREATE TABLE images(
 	updated_at timestamp ON UPDATE CURRENT_TIMESTAMP,
 	reference_code varchar(100)
 );
+
+-- 공지사항 테이블
+CREATE TABLE notice(
+	notice_no int AUTO_INCREMENT PRIMARY KEY,
+	member_no int,
+	title varchar(100),
+	content text,
+	main_regist varchar(10) DEFAULT 'N',
+	create_at timestamp DEFAULT current_timestamp,
+	updated_at timestamp ON UPDATE CURRENT_TIMESTAMP,
+	reference_code varchar(100),
+	FOREIGN KEY (member_no) REFERENCES mem_member(member_no)
+);
+
+INSERT INTO personalquestion_category VALUES ('personalq_member','회원');
+INSERT INTO personalquestion_category VALUES ('personalq_else','기타');
+INSERT INTO productquestion_category VALUES ('productq_product','상품');
+INSERT INTO productquestion_category VALUES ('productq_else','기타');
+INSERT INTO productquestion_category VALUES ('productq_opinion','의견');
+INSERT INTO productquestion_category VALUES ('productq_question','문의');
+
+-- 로그인 로그 테이블
+CREATE TABLE log_login (
+    login_log_id INT NOT NULL AUTO_INCREMENT,
+    member_no INT NOT NULL,
+    login_ip VARCHAR(45) NOT NULL,
+    user_agent VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (login_log_id),
+    CONSTRAINT log_login_member_no_fk FOREIGN KEY (member_no) REFERENCES mem_member(member_no) ON DELETE CASCADE
+);
+
+-- 방문자 수 테이블
+CREATE TABLE log_count_visit (
+    visit_log INT NOT NULL AUTO_INCREMENT,
+    visit_count INT NOT NULL DEFAULT 0,
+    created_at DATE NOT NULL,
+    PRIMARY KEY (visit_log),
+    UNIQUE (created_at)
+);
+SELECT * FROM log_login;
+SELECT * FROM log_count_visit;
+
+INSERT INTO log_count_visit (visit_count, created_at) 
+VALUES (1, DATE_SUB(CURDATE(), INTERVAL 5 DAY));
+
+alter table product
+add column view_count INT not null default 0;
+
+SELECT * FROM product;

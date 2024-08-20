@@ -310,6 +310,16 @@ GROUP BY
 SELECT * FROM vw_paymentpage;
 DROP VIEW vw_paymentpage;
 
+CREATE TRIGGER update_payment_on_review_insert
+AFTER INSERT ON payment_product_reviews
+FOR EACH ROW
+BEGIN
+    UPDATE payment
+    SET confirm = 'Y',
+        confirm_at = CURRENT_TIMESTAMP
+    WHERE im_port_id = NEW.im_port_id
+    AND confirm = 'N';
+END;
 
 
 
@@ -442,10 +452,3 @@ alter table product
 add column view_count INT not null default 0;
 
 SELECT * FROM product;
-
-CREATE TRIGGER delete_related_images
-AFTER DELETE ON product
-FOR EACH ROW
-BEGIN
-    DELETE FROM images WHERE reference_code = OLD.reference_code;
-END;
