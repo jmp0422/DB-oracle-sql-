@@ -169,6 +169,23 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"mysql8-19172a212c2-3884635cbd8d8e02": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "team4",
+			"save-password": true,
+			"configuration": {
+				"host": "db-ou0r9.pub-cdb.ntruss.com",
+				"port": "3306",
+				"database": "team4",
+				"url": "jdbc:mysql://db-ou0r9.pub-cdb.ntruss.com:3306/team4",
+				"configurationType": "MANUAL",
+				"home": "mysql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
@@ -176,7 +193,7 @@
 			"name": "Development",
 			"color": "255,255,255",
 			"description": "Regular development database",
-			"auto-commit": false,
+			"auto-commit": true,
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,

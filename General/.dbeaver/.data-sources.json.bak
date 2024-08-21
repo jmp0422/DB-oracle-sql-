@@ -169,28 +169,6 @@
 				},
 				"auth-model": "oracle_native"
 			}
-		},
-		"mysql8-1913652d8ef-73a378c78c2ecce4": {
-			"provider": "mysql",
-			"driver": "mysql8",
-			"name": "localhost 2 1",
-			"save-password": true,
-			"configuration": {
-				"host": "localhost",
-				"port": "3306",
-				"url": "jdbc:mysql://localhost:3306/",
-				"configurationType": "MANUAL",
-				"home": "mysql_client",
-				"type": "dev",
-				"closeIdleConnection": true,
-				"properties": {
-					"connectTimeout": "20000",
-					"rewriteBatchedStatements": "true",
-					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
-					"allowPublicKeyRetrieval": "true"
-				},
-				"auth-model": "native"
-			}
 		}
 	},
 	"connection-types": {
