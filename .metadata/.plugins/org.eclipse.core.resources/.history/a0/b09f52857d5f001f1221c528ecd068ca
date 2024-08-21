@@ -64,7 +64,6 @@ CREATE TABLE payment_product_reviews (
 DROP TABLE payment_product_reviews;
 SELECT * FROM payment_product_reviews;
 
-
 INSERT INTO payment_product_reviews values(DEFAULT, 1, 1, DEFAULT, "123123", 4, NULL, NOW(), null);
 
 SELECT * FROM ;
