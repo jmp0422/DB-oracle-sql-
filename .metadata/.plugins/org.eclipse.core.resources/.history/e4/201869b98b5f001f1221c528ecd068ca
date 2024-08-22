@@ -110,7 +110,7 @@ CREATE TABLE product (
 );
 DROP TABLE product;
 
-SELECT count(*) FROM product;
+SELECT * FROM product WHERE product_name= "로지텍 G102 PRODIGY";
 
 
 
