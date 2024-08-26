@@ -1,0 +1,408 @@
+2024-08-26 09:05:39.709 - DBeaver 24.0.3.202404211624 is starting
+2024-08-26 09:05:39.710 - OS: Windows 10 10.0 (amd64)
+2024-08-26 09:05:39.710 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-08-26 09:05:39.710 - Install path: 'H:\workspace\oracle\DBeaver'
+2024-08-26 09:05:39.710 - Instance path: 'file:/H:/workspace/multi/04_db/'
+2024-08-26 09:05:39.712 - Memory available 64Mb/1024Mb
+2024-08-26 09:05:39.719 - Create display
+2024-08-26 09:05:39.810 - Initialize desktop platform...
+2024-08-26 09:05:39.924 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
+> Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
+2024-08-26 09:05:40.090 - Initialize base platform...
+2024-08-26 09:05:40.109 - Platform initialized (299ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
+2024-08-26 09:05:40.227 - Starting instance server at http://localhost:6216
+2024-08-26 09:05:40.232 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+2024-08-26 09:05:41.462 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
+2024-08-26 09:05:41.587 - Total database drivers: 112 (112)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-08-26 09:05:41.660 - Create actions
+2024-08-26 09:05:41.665 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-08-26 09:05:41.665 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-08-26 09:05:41.666 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-08-26 09:05:41.666 - Create workbench actions
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-08-26 09:05:42.107 - Initialize workbench window
+2024-08-26 09:05:42.112 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.129.202404211624]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.105.202404211624]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.166.202404211624]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.135.202404211624]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.89.202404211624]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.89.202404211624]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.126.202404211624]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.2.202404211624]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.22.202404211624]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.214.202404211624]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-08-26 09:05:44.245 - Connect with 'team4' (mysql8-19172a212c2-3884635cbd8d8e02)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
+2024-08-26 09:05:44.274 - Execution context opened (team4; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
+2024-08-26 09:05:44.493 - Execution context opened (team4; Metadata; 1)
+2024-08-26 09:05:44.617 - Connected (mysql8-19172a212c2-3884635cbd8d8e02, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-08-26 09:05:44.620 - Execution context opened (team4; SQLEditor <Script-29.sql>; 2)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
+2024-08-26 09:06:14.124 - SQL Error: Statement cancelled due to client request
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error: Statement cancelled due to client request
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.mysql.cj.jdbc.exceptions.MySQLStatementCancelledException: Statement cancelled due to client request
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:110)
+	at com.mysql.cj.jdbc.StatementImpl.checkCancelTimeout(StatementImpl.java:2160)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1132)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:658)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:727)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-08-26 09:07:10.374 - SQL Error: Statement cancelled due to client request
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error: Statement cancelled due to client request
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.mysql.cj.jdbc.exceptions.MySQLStatementCancelledException: Statement cancelled due to client request
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:110)
+	at com.mysql.cj.jdbc.StatementImpl.checkCancelTimeout(StatementImpl.java:2160)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1132)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:658)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:727)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-08-26 09:07:28.794 - Can't read execution warnings
+org.jkiss.dbeaver.model.exec.DBCException: SQL Error [S1009]: No operations allowed after statement closed.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.getStatementWarnings(JDBCStatementImpl.java:621)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:726)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: No operations allowed after statement closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:82)
+	at com.mysql.cj.jdbc.StatementImpl.getWarnings(StatementImpl.java:1739)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.getWarnings(JDBCStatementImpl.java:568)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.getStatementWarnings(JDBCStatementImpl.java:598)
+	... 12 more
+Caused by: com.mysql.cj.exceptions.StatementIsClosedException: No operations allowed after statement closed.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.jdbc.StatementImpl.checkClosed(StatementImpl.java:340)
+	at com.mysql.cj.jdbc.StatementImpl.getWarnings(StatementImpl.java:1724)
+	... 14 more
+2024-08-26 09:07:28.797 - Invalidate datasource 'team4' connections...
+2024-08-26 09:07:28.815 - 	Invalidate context 'Main' for mysql8-19172a212c2-3884635cbd8d8e02 (BEFORE_INVALIDATE)
+2024-08-26 09:07:28.816 - Error closing active transaction
+java.sql.SQLNonTransientConnectionException: Communications link failure during rollback(). Transaction resolution unknown.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:1814)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.lambda$0(JDBCDataSource.java:365)
+	at org.jkiss.dbeaver.utils.RuntimeUtils$MonitoringTask.run(RuntimeUtils.java:727)
+	at org.jkiss.dbeaver.utils.RuntimeUtils$1.run(RuntimeUtils.java:263)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-08-26 09:07:28.827 - Execution context closed (team4, 0)
+2024-08-26 09:07:28.827 - 	Invalidate context 'Metadata' for mysql8-19172a212c2-3884635cbd8d8e02 (BEFORE_INVALIDATE)
+2024-08-26 09:07:28.839 - Execution context closed (team4, 1)
+2024-08-26 09:07:28.839 - 	Invalidate context 'SQLEditor <Script-29.sql>' for mysql8-19172a212c2-3884635cbd8d8e02 (BEFORE_INVALIDATE)
+2024-08-26 09:07:28.850 - Execution context closed (team4, 2)
+2024-08-26 09:07:28.850 - 	Invalidate context 'Main' for mysql8-19172a212c2-3884635cbd8d8e02 (INVALIDATE)
+2024-08-26 09:07:30.909 - 	Failed: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-26 09:07:30.910 - 	Invalidate context 'Metadata' for mysql8-19172a212c2-3884635cbd8d8e02 (INVALIDATE)
+2024-08-26 09:07:40.336 - There are 1 SQL job(s) still running in the editor
+2024-08-26 09:07:40.465 - 	Failed: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-26 09:07:40.465 - 	Invalidate context 'SQLEditor <Script-29.sql>' for mysql8-19172a212c2-3884635cbd8d8e02 (INVALIDATE)
+2024-08-26 09:07:42.518 - 	Failed: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-08-26 09:07:42.518 - 	Invalidate context 'Main' for mysql8-19172a212c2-3884635cbd8d8e02 (AFTER_INVALIDATE)
+2024-08-26 09:07:42.518 - 	Invalidate context 'Metadata' for mysql8-19172a212c2-3884635cbd8d8e02 (AFTER_INVALIDATE)
+2024-08-26 09:07:42.518 - 	Invalidate context 'SQLEditor <Script-29.sql>' for mysql8-19172a212c2-3884635cbd8d8e02 (AFTER_INVALIDATE)
+2024-08-26 09:07:42.544 - Operation failed. Retry count remains = 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [08S01]: Communications link failure
+
+The last packet successfully received from the server was 8,413 milliseconds ago. The last packet sent successfully to the server was 8,417 milliseconds ago.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 8,413 milliseconds ago. The last packet sent successfully to the server was 8,417 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 8,413 milliseconds ago. The last packet sent successfully to the server was 8,417 milliseconds ago.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:104)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:582)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:762)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:701)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1050)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:658)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:727)
+	... 15 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:576)
+	... 21 more
+2024-08-26 09:07:43.379 - Cancel operation timed out
+org.jkiss.dbeaver.model.exec.DBCException: Cancel operation timed out
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead$PumpVisualizer.runInUIThread(ResultSetJobDataRead.java:185)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+2024-08-26 09:07:46.676 - Can't check for connection warnings
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:91)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.getConnection(JDBCExecutionContext.java:204)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.getOriginal(JDBCConnectionImpl.java:60)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.close(JDBCConnectionImpl.java:325)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:136)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:104)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:88)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	... 16 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:62)
+	... 19 more
+2024-08-26 09:07:46.726 - SQL Error [08S01]: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+org.jkiss.dbeaver.model.impl.jdbc.JDBCException: SQL Error [08S01]: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:209)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:1)
+	at org.jkiss.dbeaver.model.DBUtils.createStatement(DBUtils.java:1436)
+	at org.jkiss.dbeaver.model.DBUtils.makeStatement(DBUtils.java:1403)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:590)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:481)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:91)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.getConnection(JDBCExecutionContext.java:204)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.getOriginal(JDBCConnectionImpl.java:60)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:100)
+	... 15 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:104)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:88)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	... 27 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:62)
+	... 30 more
+2024-08-26 09:07:46.733 - Internal error: data read status is empty
+2024-08-26 09:07:49.606 - DBeaver is stopping
+2024-08-26 09:07:49.607 - Stop instance server
+2024-08-26 09:07:50.619 - DBeaver shutdown completed

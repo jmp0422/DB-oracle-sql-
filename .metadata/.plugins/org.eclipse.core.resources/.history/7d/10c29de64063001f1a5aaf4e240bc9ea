@@ -49,8 +49,6 @@ CREATE TABLE payment_product_reviews (
     CONSTRAINT payment_review_product_no_fk FOREIGN KEY (product_no) REFERENCES product(product_no) ON DELETE CASCADE
 );
 
-SELECT * FROM payment_product_reviews;
-
 CREATE OR REPLACE VIEW vw_paymentpage AS
 SELECT
     p.product_no,
@@ -103,6 +101,3 @@ BEGIN
         WHERE member_no = NEW.member_no;
     END IF;
 END;
-
-SELECT * FROM mem_member;
-SHOW triggers;
