@@ -13,4 +13,4 @@ nono varchar(22)
 
 );
 SELECT * FROM dbdb;
-INSERT INTO dbdb values("Sdf" , "Sdfda");
+INSERT INTO dbdb values("Sdf" , "Sdfd");
