@@ -1,21 +1,21 @@
-2024-09-22 09:59:53.417 - DBeaver 24.0.3.202404211624 is starting
-2024-09-22 09:59:53.418 - OS: Windows 10 10.0 (amd64)
-2024-09-22 09:59:53.418 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-09-22 09:59:53.418 - Install path: 'H:\workspace\oracle\DBeaver'
-2024-09-22 09:59:53.419 - Instance path: 'file:/H:/workspace/multi/04_db/'
-2024-09-22 09:59:53.420 - Memory available 64Mb/1024Mb
-2024-09-22 09:59:53.427 - Create display
-2024-09-22 09:59:53.586 - Initialize desktop platform...
-2024-09-22 09:59:53.722 - BounceCastle bundle found. Use JCE provider BC
+2024-09-25 19:12:43.417 - DBeaver 24.0.3.202404211624 is starting
+2024-09-25 19:12:43.417 - OS: Windows 10 10.0 (amd64)
+2024-09-25 19:12:43.418 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-09-25 19:12:43.418 - Install path: 'H:\workspace\oracle\DBeaver'
+2024-09-25 19:12:43.418 - Instance path: 'file:/H:/workspace/multi/04_db/'
+2024-09-25 19:12:43.420 - Memory available 64Mb/1024Mb
+2024-09-25 19:12:43.434 - Create display
+2024-09-25 19:12:44.649 - Initialize desktop platform...
+2024-09-25 19:12:45.069 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.129.202404211624]
-2024-09-22 09:59:54.013 - Initialize base platform...
-2024-09-22 09:59:54.040 - Platform initialized (454ms)
+2024-09-25 19:12:47.237 - Initialize base platform...
+2024-09-25 19:12:47.295 - Platform initialized (2646ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.129.202404211624]
-2024-09-22 09:59:54.163 - Starting instance server at http://localhost:13354
-2024-09-22 09:59:54.194 - Run workbench
+2024-09-25 19:12:47.431 - Starting instance server at http://localhost:12572
+2024-09-25 19:12:47.653 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
@@ -28,18 +28,18 @@
 > Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
-2024-09-22 10:00:01.793 - Configure workbench window
+2024-09-25 19:13:00.117 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.119.202404211624]
-2024-09-22 10:00:01.992 - Total database drivers: 112 (112)
+2024-09-25 19:13:00.340 - Total database drivers: 112 (112)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
-2024-09-22 10:00:02.195 - Create actions
-2024-09-22 10:00:02.218 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-09-22 10:00:02.219 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-09-22 10:00:02.219 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-09-22 10:00:02.219 - Create workbench actions
+2024-09-25 19:13:00.559 - Create actions
+2024-09-25 19:13:00.582 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-09-25 19:13:00.582 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-09-25 19:13:00.582 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-09-25 19:13:00.583 - Create workbench actions
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
-2024-09-22 10:00:03.441 - Initialize workbench window
-2024-09-22 10:00:03.446 - Finish initialization
+2024-09-25 19:13:01.891 - Initialize workbench window
+2024-09-25 19:13:01.896 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.129.202404211624]
@@ -62,21 +62,21 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.120.202404211624]
 > Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
-2024-09-22 10:00:06.228 - Connect with 'localhost 2' (mysql8-18f3c4755fa-48d44911c1ae78cb)
+2024-09-25 19:13:05.501 - Connect with 'localhost 2' (mysql8-18f3c4755fa-48d44911c1ae78cb)
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.214.202404211624]
-2024-09-22 10:00:06.269 - Execution context opened (localhost 2; Main; 0)
+2024-09-25 19:13:05.559 - Execution context opened (localhost 2; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.153.202404211624]
-2024-09-22 10:00:06.496 - Execution context opened (localhost 2; Metadata; 1)
-2024-09-22 10:00:06.566 - Connected (mysql8-18f3c4755fa-48d44911c1ae78cb, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-09-22 10:00:06.574 - Execution context opened (localhost 2; SQLEditor <Script-30.sql>; 2)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.24.202404211624]
-2024-09-22 10:00:08.105 - Open [https://dbeaver.io/product/version.xml]
+2024-09-25 19:13:05.937 - Execution context opened (localhost 2; Metadata; 1)
+2024-09-25 19:13:06.028 - Connected (mysql8-18f3c4755fa-48d44911c1ae78cb, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-09-25 19:13:06.051 - Execution context opened (localhost 2; SQLEditor <Script-30.sql>; 2)
+2024-09-25 19:13:07.124 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.107.202404211624]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.121.202404211624]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.107.202404211624]
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.113.202404211624]
-2024-09-22 10:00:26.898 - Execution context closed (localhost 2, 2)
-2024-09-22 10:00:27.265 - DBeaver is stopping
-2024-09-22 10:00:27.267 - Stop instance server
-2024-09-22 10:00:28.272 - Instance server has been stopped
-2024-09-22 10:00:28.273 - DBeaver shutdown completed
+2024-09-25 19:13:43.445 - Execution context closed (localhost 2, 2)
+2024-09-25 19:13:43.843 - DBeaver is stopping
+2024-09-25 19:13:43.844 - Stop instance server
+2024-09-25 19:13:44.857 - Instance server has been stopped
+2024-09-25 19:13:44.857 - DBeaver shutdown completed
