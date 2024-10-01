@@ -10,11 +10,11 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="DBeaver.StandardErrorDialog">
-		<item key="showDetails" value="false"/>
+		<item key="showDetails" value="true"/>
 		<item key="DIALOG_X_ORIGIN" value="711"/>
 		<item key="DIALOG_Y_ORIGIN" value="399"/>
 		<item key="DIALOG_WIDTH" value="515"/>
-		<item key="DIALOG_HEIGHT" value="194"/>
+		<item key="DIALOG_HEIGHT" value="373"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="DBeaver.ScriptSelectorPopup">
@@ -68,7 +68,7 @@
 		<item key="showAllProjects" value="true"/>
 		<item key="DIALOG_X_ORIGIN" value="815"/>
 		<item key="DIALOG_Y_ORIGIN" value="70"/>
-		<item key="DIALOG_WIDTH" value="307"/>
+		<item key="DIALOG_WIDTH" value="306"/>
 		<item key="DIALOG_HEIGHT" value="687"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>

@@ -20,7 +20,8 @@
 					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
 					"allowPublicKeyRetrieval": "true"
 				},
-				"auth-model": "native"
+				"auth-model": "native",
+				"handlers": {}
 			}
 		},
 		"oracle_thin-18f3c7e490f-66e9f76381d1fe84": {
@@ -193,7 +194,7 @@
 			"name": "Development",
 			"color": "255,255,255",
 			"description": "Regular development database",
-			"auto-commit": true,
+			"auto-commit": false,
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,
